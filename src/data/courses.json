@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": 1274,
+    "date": "2018-01-04T17:13:27",
+    "date_gmt": "2018-01-04T20:13:27",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-courses&#038;p=1274"
+    },
+    "modified": "2020-06-21T23:52:13",
+    "modified_gmt": "2020-06-22T02:52:13",
+    "slug": "capacitacion-inicial",
+    "status": "publish",
+    "type": "sfwd-courses",
+    "link": "https://intranet.remax-titanium.com.ar/cursos/capacitacion-inicial/",
+    "title": {
+      "rendered": "Capacitación Inicial"
+    },
+    "content": {
+      "rendered": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"1274\" class=\"elementor elementor-1274\">\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-34162c31 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"34162c31\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-195d514d\" data-id=\"195d514d\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-01bdfe3 elementor-widget elementor-widget-heading\" data-id=\"01bdfe3\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\"><h2>&iquest;Para qu&eacute; hacer esta Capacitaci&oacute;n?</h2></h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-533a8c43 elementor-widget elementor-widget-text-editor\" data-id=\"533a8c43\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><!-- d751713988987e9331980363e24189ce --></p>\n<p></p>\n<div class=\"whyCourse WYLCourse\">\n<p style=\"text-align: justify;\">Creemos que cu&aacute;nto mejor te prepares, m&aacute;s f&aacute;cil te ser&aacute; poner en marcha <strong style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">tu negocio RE/MAX y obtener los resultados</strong><span style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\"> que quer&eacute;s. Por eso, creamos esta Capacitaci&oacute;n con todo el material que fuimos desarrollando a partir de nuestra propia experiencia, lo aprendido a trav&eacute;s de la Red RE/MAX y diversos aportes de otras Oficinas y Agentes.</span></p>\n</div>\n<p></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-16a5ffc elementor-widget elementor-widget-heading\" data-id=\"16a5ffc\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\"><h2>Qu&eacute; vas a aprender</h2></h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-70599d4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"70599d4\" data-element_type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo crear y administrar una Base de Relaciones</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">En qu&eacute; consiste el proceso del negocio inmobiliario</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Ventas transaccionales vs relacionales</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo captar clientes vendedores</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Buenas Pr&aacute;cticas con Vendedores y Compradores</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Manejo de Objeciones</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo mostrar propiedades</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Mayor exposici&oacute;n de tus publicaciones</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo Trabajar con Compradores</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Habilidades de Relacionamiento</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo presentar ofertas a los vendedores</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Derecho Inmobiliario</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">T&eacute;cnicas de cierre</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fas fa-check\"></i>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">C&oacute;mo lograr clientes para toda la vida</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-9926eda elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"9926eda\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-657dd99\" data-id=\"657dd99\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-a05a64b elementor-widget elementor-widget-spacer\" data-id=\"a05a64b\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"></div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-f4b5d79 elementor-widget elementor-widget-heading\" data-id=\"f4b5d79\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\"><h2>Metodolog&iacute;a de Trabajo</h2></h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-00e1c1f elementor-widget elementor-widget-text-editor\" data-id=\"00e1c1f\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<h2 style=\"text-align: justify;\"><span style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">La Capacitaci&oacute;n se estructura en </span><strong style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">M&oacute;dulos</strong><span style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">, que se desarrollan en diferentes </span><strong style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">Temas</strong><span style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">. En cada Tema encontrar&aacute;s el contenido te&oacute;rico y diversas </span><strong style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">Actividades </strong><span style=\"color: #434343; text-align: justify; font-family: Roboto, sans-serif; font-size: 1rem;\">para poner en pr&aacute;ctica lo aprendido, a trav&eacute;s de casos, preguntas, lecturas, videos y ejercicios de interacci&oacute;n con otros y con vos mismo.</span></h2>\n<p style=\"text-align: justify;\">Podr&aacute;s acceder a <strong>toda la informaci&oacute;n en un solo lugar</strong>, disponible para que la veas las veces que quieras. Adem&aacute;s, vos eleg&iacute;s <strong>cu&aacute;ndo</strong> y <strong>d&oacute;nde</strong>: &iexcl;hac&eacute; la capacitaci&oacute;n a tu ritmo!</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t</div>",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 11953,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_total_topic_count": 0,
+      "_bbp_total_reply_count": 0,
+      "_bbp_voice_count": 0,
+      "_bbp_anonymous_reply_count": 0,
+      "_bbp_topic_count_hidden": 0,
+      "_bbp_reply_count_hidden": 0,
+      "_bbp_forum_subforum_count": 0,
+      "footnotes": ""
+    },
+    "categories": [],
+    "tags": [],
+    "ld_course_category": [
+      34
+    ],
+    "ld_course_tag": [
+      67,
+      70
+    ],
+    "class_list": [
+      "post-1274",
+      "sfwd-courses",
+      "type-sfwd-courses",
+      "status-publish",
+      "has-post-thumbnail",
+      "hentry",
+      "ld_course_category-featured",
+      "ld_course_tag-video",
+      "ld_course_tag-writing"
+    ],
+    "course_materials": "",
+    "course_price_type": "closed",
+    "custom_button_label": "",
+    "custom_button_url": "",
+    "course_price": "",
+    "course_prerequisite_enabled": "",
+    "course_prerequisite": "",
+    "course_prerequisite_compare": "ALL",
+    "course_points_enabled": "",
+    "course_points": 0,
+    "course_points_access": 0,
+    "course_disable_lesson_progression": "on",
+    "expire_access": "",
+    "expire_access_days": 200,
+    "expire_access_delete_progress": "",
+    "related_courses": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-courses/1274"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-courses"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-courses"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 20,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-courses/1274/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 13516,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-courses/1274/revisions/13516"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media/11953"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=1274"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=1274"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=1274"
+        },
+        {
+          "taxonomy": "ld_course_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_course_category?post=1274"
+        },
+        {
+          "taxonomy": "ld_course_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_course_tag?post=1274"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

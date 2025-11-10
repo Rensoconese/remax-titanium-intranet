@@ -1,12 +1,12 @@
 {
-  "migrated_at": null,
-  "wordpress_url": null,
+  "migrated_at": "2025-11-10T21:13:51.963Z",
+  "wordpress_url": "https://intranet.remax-titanium.com.ar",
   "stats": {
-    "courses": 0,
-    "lessons": 0,
-    "topics": 0,
-    "quizzes": 0,
-    "users": 0,
-    "media": 0
+    "courses": 1,
+    "lessons": 16,
+    "topics": 76,
+    "quizzes": 76,
+    "users": 68,
+    "media": 1
   }
 }

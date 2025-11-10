@@ -1,1 +1,1874 @@
-[]
+[
+  {
+    "id": 8478,
+    "date": "2019-02-02T00:06:53",
+    "date_gmt": "2019-02-02T00:06:53",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/lessons/leccion/"
+    },
+    "modified": "2019-02-02T00:07:01",
+    "modified_gmt": "2019-02-02T00:07:01",
+    "slug": "adn-titanium",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/adn-titanium/",
+    "title": {
+      "rendered": "ADN Titanium"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "menu_order": 3,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-8478",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8478"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8478/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8479,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8478/revisions/8479"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=8478"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=8478"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=8478"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=8478"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=8478"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12390,
+    "date": "2020-06-06T17:48:19",
+    "date_gmt": "2020-06-06T20:48:19",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=12390"
+    },
+    "modified": "2020-06-06T22:23:13",
+    "modified_gmt": "2020-06-07T01:23:13",
+    "slug": "apps-software-webs-y-herramientas-necesarias",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/apps-software-webs-y-herramientas-necesarias/",
+    "title": {
+      "rendered": "Apps, Software, Webs y Herramientas Necesarias"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 2,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-12390",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12390"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12390/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 12509,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12390/revisions/12509"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=12390"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=12390"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=12390"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=12390"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=12390"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 924,
+    "date": "2017-12-18T18:48:27",
+    "date_gmt": "2017-12-18T13:18:27",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=924"
+    },
+    "modified": "2019-02-02T00:04:57",
+    "modified_gmt": "2019-02-02T00:04:57",
+    "slug": "capacitaciones-re-max-argentina",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/capacitaciones-re-max-argentina/",
+    "title": {
+      "rendered": "Capacitaciones RE/MAX Argentina"
+    },
+    "content": {
+      "rendered": "<p><span style=\"color: #333333;\">Instructor Role has a plethora of features that are beneficial to the administrator as well as the instructor. This lesson segments the features as seen from the point of view of the Admin and the Instructor.</span></p>\n<p><span style=\"color: #333333;\">This lesson has 2 important topics.</span></p>",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 5,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-924",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/924"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/924/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8474,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/924/revisions/8474"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=924"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=924"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=924"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=924"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=924"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8451,
+    "date": "2019-02-01T23:34:08",
+    "date_gmt": "2019-02-02T02:34:08",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/lessons/leccion/"
+    },
+    "modified": "2020-05-27T10:33:55",
+    "modified_gmt": "2020-05-27T13:33:55",
+    "slug": "cierre-exitoso",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/cierre-exitoso/",
+    "title": {
+      "rendered": "Cierre Exitoso"
+    },
+    "content": {
+      "rendered": "<section class=\"fw-main-row  default-section\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"fw-row\">\n\t<div class=\"fw-col-xs-12\">\n\t<img decoding=\"async\" src=\"//intranet.remax-titanium.com.ar/wp-content/uploads/real-estate-agent.jpg\" alt=\"//intranet.remax-titanium.com.ar/wp-content/uploads/real-estate-agent.jpg\" width=\"900\"><p>Llegamos a la &uacute;ltima etapa!</p><p>Ya trabajamos con el vendedor, con la propiedad y el comprador! Ahora nos falta unir las piezas del rompecabezas.</p><p>Por ello, veremos los siguientes temas:</p><p><strong>- Negociaci&oacute;n:</strong> aprenderemos a acercar las partes y conseguir acuerdos exitosos donde todos salgan ganando.</p><p><strong>- Derecho Inmobiliario:</strong> de lo m&aacute;s importante; veremos todo lo necesario y b&aacute;sico para entender las principales instituciones jur&iacute;dicas relacionadas con el real estate.&nbsp;</p><p><strong>- Seguimiento de la Reserva:</strong> estamos en la recta final, tendremos que cuidar todos los detalles para que el proceso contin&uacute;e aceitado y sin contratiempos. Aqu&iacute; lo fundamental ser&aacute; la COMUNICACI&Oacute;N</p><p><strong>- La firma de la Operaci&oacute;n:</strong> qu&eacute; necesitamos para que todo salga espectacular y sea una experiencia extraordinaria!</p><p><strong>- Clientes para toda la vida:</strong> c&oacute;mo convertir los clientes en nuestros promotores</p></div>\n</div>\n\n\t</div>\r\n</section>\r\n",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "menu_order": 4,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-8451",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8451"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8451/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 14576,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8451/revisions/14576"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=8451"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=8451"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=8451"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=8451"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=8451"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8420,
+    "date": "2019-02-01T23:14:33",
+    "date_gmt": "2019-02-01T23:14:33",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/lessons/leccion/"
+    },
+    "modified": "2020-06-16T13:37:06",
+    "modified_gmt": "2020-06-16T16:37:06",
+    "slug": "clientes-vendedores",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/clientes-vendedores/",
+    "title": {
+      "rendered": "Clientes Vendedores"
+    },
+    "content": {
+      "rendered": "<section class=\"fw-main-row  default-section\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"fw-row\">\n\t<div class=\"fw-col-xs-12\">\n\t<img decoding=\"async\" src=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Preapproval-selecting-an-agent-contract-agreement-clients-old-young-female-male-couple-handshake.jpeg\" alt=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Preapproval-selecting-an-agent-contract-agreement-clients-old-young-female-male-couple-handshake.jpeg\"></div>\n</div>\n\n<div class=\"fw-row\">\n\t<div class=\"fw-col-xs-12\">\n\t<p style=\"text-align: justify;\"><span style=\"font-size: 16px;\">En este <strong>M&oacute;dulo</strong> te brindaremos herramientas para iniciar un negocio exitoso y sostenible en el tiempo.&nbsp;</span></p><p>Para ello, abordaremos los siguientes <strong>Temas</strong>:</p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\"><strong>- La Base de tu Negocio:</strong> estamos en un negocio relacional, por lo que las estrategias para generar nuevos contactos y mantenernos cerca son fundamentales para el mediano y largo plazo.</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\"><strong>- Generaci&oacute;n de Prospectos:</strong> aprenderemos las diferentes maneras de conseguir clientes que deseen vender sus inmuebles, manejar sus objeciones, presentarnos e indagar efectivamente.</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\"><strong>- Presentaci&oacute;n y Calificaci&oacute;n de Vendedores:</strong> trabajaremos nuestra presentaci&oacute;n y las preguntas correctas para saber cu&aacute;les son los disparadores que subyacen en la decisi&oacute;n de vender y mudarse.&nbsp;</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\"><strong>- Seguimiento Post Captaci&oacute;n:</strong> entenderemos la importancia de mantenernos en contacto con los clientes que nos han confiado su propiedad para vender, para elaborar estrategias y modificar las condiciones de promoci&oacute;n del inmueble cuando el mercado no convalida nuestra oferta.</span></p></div>\n</div>\n\n\t</div>\r\n</section>\r\n",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "menu_order": 1,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-8420",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8420"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 36,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8420/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 12835,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8420/revisions/12835"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=8420"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=8420"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=8420"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=8420"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=8420"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12369,
+    "date": "2020-06-06T16:41:01",
+    "date_gmt": "2020-06-06T19:41:01",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=12369"
+    },
+    "modified": "2020-06-06T16:41:02",
+    "modified_gmt": "2020-06-06T19:41:02",
+    "slug": "dandome-a-conocer",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/dandome-a-conocer/",
+    "title": {
+      "rendered": "Dándome a Conocer"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 1,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-12369",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12369"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12369/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 12820,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12369/revisions/12820"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=12369"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=12369"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=12369"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=12369"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=12369"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 218,
+    "date": "2015-10-05T08:22:21",
+    "date_gmt": "2015-10-05T08:22:21",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=218"
+    },
+    "modified": "2019-02-02T00:10:53",
+    "modified_gmt": "2019-02-02T00:10:53",
+    "slug": "fuentes-de-informacion",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/fuentes-de-informacion/",
+    "title": {
+      "rendered": "Fuentes de Información"
+    },
+    "content": {
+      "rendered": "<p>The theme provides options to:</p>\n<ul>\n<li>Update a Logo</li>\n<li>Add social sharing links</li>\n<li>Add Google Analytics Information</li>\n</ul>",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-218",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/218"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/218/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8484,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/218/revisions/8484"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=218"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=218"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=218"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=218"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=218"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8510,
+    "date": "2019-02-02T00:58:58",
+    "date_gmt": "2019-02-02T00:58:58",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/lessons/leccion/"
+    },
+    "modified": "2019-02-03T20:20:39",
+    "modified_gmt": "2019-02-03T20:20:39",
+    "slug": "habitos-para-el-exito",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/habitos-para-el-exito/",
+    "title": {
+      "rendered": "Hábitos para el Éxito"
+    },
+    "content": {
+      "rendered": "<a href=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/BUENAS-PRACTICAS-PARA-EL-EXITO.pdf\" class=\"pdfemb-viewer\" style=\"\" data-width=\"max\" data-height=\"max\" data-toolbar=\"bottom\" data-toolbar-fixed=\"off\">BUENAS-PRACTICAS-PARA-EL-EXITO</a>\n<p class=\"wp-block-pdfemb-pdf-embedder-viewer\"></p>",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "menu_order": 6,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-8510",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8510"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8510/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8618,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8510/revisions/8618"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=8510"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=8510"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=8510"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=8510"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=8510"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1279,
+    "date": "2018-01-04T17:18:21",
+    "date_gmt": "2018-01-04T11:48:21",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=1279"
+    },
+    "modified": "2020-06-20T11:17:36",
+    "modified_gmt": "2020-06-20T14:17:36",
+    "slug": "la-propiedad",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/la-propiedad/",
+    "title": {
+      "rendered": "La Propiedad"
+    },
+    "content": {
+      "rendered": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"1279\" class=\"elementor elementor-1279\">\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-44484379 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"44484379\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-555993b1\" data-id=\"555993b1\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-75554f5d elementor-widget elementor-widget-text-editor\" data-id=\"75554f5d\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<section class=\"fw-main-row default-section\"><div class=\"container\"><div class=\"fw-row\"><div class=\"fw-col-xs-12\"><p><img decoding=\"async\" src=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Image_1.jpeg\" alt=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Image_1.jpeg\" width=\"900\"></p><div class=\"fw-divider-space\" style=\"padding-top: 50px;\">&nbsp;</div><p style=\"text-align: justify;\">En este <strong>M&oacute;dulo</strong> abordaremos los siguientes temas:</p><p style=\"text-align: justify;\"><strong>&ndash; Confecci&oacute;n de An&aacute;lisis Comparativo de Mercado (<a href=\"https://intranet.remax-titanium.com.ar/encyclopedia/acm/\" target=\"_self\" title=\"An&aacute;lisis Comparativo de Mercado. El trabajo que hacemos para presentarle al due&ntilde;o de la propiedad cu&aacute;l es nuestra opini&oacute;n respecto del valor ideal para publicar el inmueble y venderlo, en base a comparables reales que est&aacute;n compitiendo con la nuestra.\" class=\"encyclopedia\">ACM</a>)</strong></p><p style=\"text-align: justify;\"><strong>&ndash; Presentaci&oacute;n de <a href=\"https://intranet.remax-titanium.com.ar/encyclopedia/acm/\" target=\"_self\" title=\"An&aacute;lisis Comparativo de Mercado. El trabajo que hacemos para presentarle al due&ntilde;o de la propiedad cu&aacute;l es nuestra opini&oacute;n respecto del valor ideal para publicar el inmueble y venderlo, en base a comparables reales que est&aacute;n compitiendo con la nuestra.\" class=\"encyclopedia\">ACM</a></strong> ante los propietarios</p><p style=\"text-align: justify;\"><strong>&ndash; Publicaci&oacute;n de la Propiedad</strong> (Fotos &ndash; Descripci&oacute;n &ndash; Planos)</p><p style=\"text-align: justify;\"><strong>&ndash; Uso del iList</strong>&nbsp;y reglas de aprobaci&oacute;n de la publicaci&oacute;n</p></div></div></div></section><p><!-- a55ee6dd13ad660005e26c2ef48c148e --></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t</div>",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 2,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-1279",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/1279"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 11,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/1279/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 13000,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/1279/revisions/13000"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=1279"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=1279"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=1279"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=1279"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=1279"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "date": "2015-09-25T13:10:39",
+    "date_gmt": "2015-09-25T07:40:39",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=151"
+    },
+    "modified": "2019-02-02T00:34:27",
+    "modified_gmt": "2019-02-02T00:34:27",
+    "slug": "marketing-en-redes-sociales",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/marketing-en-redes-sociales/",
+    "title": {
+      "rendered": "Marketing en Redes Sociales"
+    },
+    "content": {
+      "rendered": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris mauris, efficitur sed nulla a, egestas ultricies velit. Quisque auctor dui eget ultricies placerat. Aenean sit amet turpis a sem egestas tincidunt. Ut ornare enim a bibendum sollicitudin. Sed volutpat eleifend dolor at ultricies. Curabitur molestie dolor vel maximus iaculis.</p>\n<p>Sed id mollis quam. Curabitur congue, est sed posuere ultricies, lacus ex tempus mauris, a aliquet augue arcu ac tortor. Fusce ultrices vel justo at rhoncus. Phasellus rutrum purus commodo velit ullamcorper consequat. Proin condimentum, nibh non blandit tempor, erat dui sollicitudin justo, a feugiat ipsum nibh ac nunc. Quisque rhoncus justo non scelerisque pulvinar. Curabitur rutrum, sem id fringilla dapibus, dolor eros sagittis elit, ac vestibulum ex elit eget orci. Sed id accumsan dolor, in iaculis augue. Donec faucibus rutrum massa, a interdum tellus.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-151",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/151"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/151/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8494,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/151/revisions/8494"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=151"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=151"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=151"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=151"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=151"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "date": "2015-09-25T12:32:41",
+    "date_gmt": "2015-09-25T12:32:41",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=134"
+    },
+    "modified": "2019-02-01T23:58:36",
+    "modified_gmt": "2019-02-01T23:58:36",
+    "slug": "re-max-argentina",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/re-max-argentina/",
+    "title": {
+      "rendered": "RE/MAX Argentina"
+    },
+    "content": {
+      "rendered": "<p style=\"text-align: left;\">eLumine reinvents WooCommerce layouts as well.</p>\n<p style=\"text-align: left;\">Special attention has been given to detailing. Check out the Shop page and single product page to get an elevated shopping experience.</p>\n<p style=\"text-align: left;\">Notice how the elements are styled. Indicators are placed in optimal position.</p>\n<p>&nbsp;</p>\n<p><img fetchpriority=\"high\" decoding=\"async\" class=\"aligncenter wp-image-864 size-full\" src=\"http://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce.png\" alt=\"elumine-woocommerce\" width=\"1168\" height=\"473\" srcset=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce.png 1168w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce-300x121.png 300w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce-768x311.png 768w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce-1024x415.png 1024w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce-100x40.png 100w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-woocommerce-447x181.png 447w\" sizes=\"(max-width: 1168px) 100vw, 1168px\"></p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 2,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-134",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": 1516602600,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/134"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/134/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8464,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/134/revisions/8464"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=134"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=134"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=134"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "date": "2015-09-25T12:35:22",
+    "date_gmt": "2015-09-25T07:05:22",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=136"
+    },
+    "modified": "2019-02-01T23:58:29",
+    "modified_gmt": "2019-02-01T23:58:29",
+    "slug": "re-max-internacional",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/re-max-internacional/",
+    "title": {
+      "rendered": "RE/MAX Internacional"
+    },
+    "content": {
+      "rendered": "<p style=\"text-align: justify;\">eLumine&nbsp;and LearnDash work together like water and salt &ndash; that is to say, LearnDash completely blends in. The theme completely supports LearnDash with experiences tailored for the plugin.</p>\n<p style=\"text-align: justify;\">Like the Course Archive Page for example!</p>\n<p style=\"text-align: justify;\"><strong>Course Type and Price Indicators:</strong> <img decoding=\"async\" class=\"alignnone wp-image-863 size-full\" src=\"http://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates.png\" alt=\"course-layout-updates\" width=\"1227\" height=\"372\" srcset=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates.png 1227w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates-300x91.png 300w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates-768x233.png 768w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates-1024x310.png 1024w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates-100x30.png 100w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-updates-447x136.png 447w\" sizes=\"(max-width: 1227px) 100vw, 1227px\"></p>\n<p>&nbsp;</p>\n<p style=\"text-align: justify;\">The&nbsp;course type, cost (if paid), course reviews are all clearly defined. And if you&rsquo;re logged in, you get to see your course progress, for courses you have enrolled in.</p>\n<p style=\"text-align: justify;\"><strong>Course Progress Indicator (for logged in students):</strong></p>\n<p><img decoding=\"async\" class=\"alignnone wp-image-862 size-full\" src=\"http://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators.png\" alt=\"course-layout-indicators\" width=\"1176\" height=\"360\" srcset=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators.png 1176w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators-300x92.png 300w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators-768x235.png 768w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators-1024x313.png 1024w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators-100x31.png 100w, https://intranet.remax-titanium.com.ar/wp-content/uploads/course-layout-indicators-447x137.png 447w\" sizes=\"(max-width: 1176px) 100vw, 1176px\"></p>\n<p>&nbsp;</p>\n<p>So, you must&rsquo;ve observed the all-new updated single course page! You&rsquo;re looking at it right now!</p>\n<p style=\"text-align: justify;\">Pretty neat, right?!</p>\n<p style=\"text-align: justify;\">The course summary on the right helps you always keep track of how far you&rsquo;ve progressed in the course. Kind of like a reminder of lessons and topics completed, and the course content that lay ahead.</p>\n<p style=\"text-align: justify;\"><strong>Step-wise Course Progress Indicator (for logged in Students):</strong></p>\n<p>\n</p><div class=\"learndash-wrapper learndash-widget\">\n\t\t<div class=\"ld-progress\n\t\t\tld-progress-inline\">\n\t\t\t\t\t<div class=\"ld-progress-heading\">\n\t\t\t\t\t\t\t\t<div class=\"ld-progress-stats\">\n\t\t\t\t\t<div class=\"ld-progress-percentage ld-secondary-color\">\n\t\t\t\t\t0% Completado\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"ld-progress-steps\">\n\t\t\t\t\t\t0/8 pasos\t\t\t\t\t</div>\n\t\t\t\t</div> <!--/.ld-progress-stats-->\n\t\t\t</div>\n\n\t\t\t<div class=\"ld-progress-bar\">\n\t\t\t\t<div class=\"ld-progress-bar-percentage ld-secondary-background\" style=\"width:0%\"></div>\n\t\t\t</div>\n\t\t\t\t</div> <!--/.ld-progress-->\n\t</div>\n<br>\n<img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-865 size-full\" src=\"http://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress.png\" alt=\"lesson-progress\" width=\"1147\" height=\"361\" srcset=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress.png 1147w, https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress-300x94.png 300w, https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress-768x242.png 768w, https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress-1024x322.png 1024w, https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress-100x31.png 100w, https://intranet.remax-titanium.com.ar/wp-content/uploads/lesson-progress-447x141.png 447w\" sizes=\"(max-width: 1147px) 100vw, 1147px\">\n<h3 style=\"text-align: justify;\">eLumine&nbsp;Feature Note</h3>\n<p style=\"text-align: justify;\">If you&rsquo;ve scrolled through the course archive page (or the &lsquo;All Courses&rsquo; page), you&rsquo;ll have noticed the infinite scroll feature. Gone are the days when you had to rely on students clicking buttons to explore your courses. With this functionality, courses will be unveiled upon scrolling; thus, upping your chances of course sign-ups.</p>\n<p style=\"text-align: justify;\">You HAVE to check out the <strong>quiz</strong> as part of this course to truly see the potential of this theme. Prepare to be WOWed!</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 1,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-136",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/136"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/136/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8463,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/136/revisions/8463"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=136"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=136"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=136"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=136"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "date": "2015-09-25T12:29:44",
+    "date_gmt": "2015-09-25T06:59:44",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=131"
+    },
+    "modified": "2019-02-01T23:58:45",
+    "modified_gmt": "2019-02-01T23:58:45",
+    "slug": "re-max-titanium",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/re-max-titanium/",
+    "title": {
+      "rendered": "RE/MAX Titanium"
+    },
+    "content": {
+      "rendered": "<p style=\"text-align: left;\">eLumine integrates perfectly well with the most popular Social Networking plugin on WordPress &ndash; BuddyPress.</p>\n<p style=\"text-align: left;\">The theme also includes templates to provide a contemporary look to pages created by BuddyPress. Say for example the profile page (Pages &gt; Profile) has been redesigned to make it suitable for a learning platform profile.</p>\n<p style=\"text-align: left;\">By providing support for BuddyPress &ndash; eLumine creates a social learning environment.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter wp-image-874 size-full\" src=\"http://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress.png\" alt=\"elumine-buddypress\" width=\"816\" height=\"313\" srcset=\"https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress.png 816w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress-300x115.png 300w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress-768x295.png 768w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress-100x38.png 100w, https://intranet.remax-titanium.com.ar/wp-content/uploads/elumine-buddypress-447x171.png 447w\" sizes=\"(max-width: 816px) 100vw, 816px\"></p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 3,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-131",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/131"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/131/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8465,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/131/revisions/8465"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=131"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=131"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=131"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=131"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=131"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 930,
+    "date": "2017-12-18T18:52:30",
+    "date_gmt": "2017-12-18T13:22:30",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/?post_type=sfwd-lessons&#038;p=930"
+    },
+    "modified": "2019-02-24T21:51:53",
+    "modified_gmt": "2019-02-25T00:51:53",
+    "slug": "recomendaciones-iniciales",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/recomendaciones-iniciales/",
+    "title": {
+      "rendered": "Recomendaciones Iniciales"
+    },
+    "content": {
+      "rendered": "<p>En este apartado encontrar&aacute;s recomendaciones iniciales a poner en pr&aacute;ctica de forma inmediata.</p>\n<p>Es muy importante que te involucres con cada una de las actividades solicitadas y consultes todas las dudas que surjan.</p>\n<p>Desde ya que todos estamos para ayudarte a que r&aacute;pidamente puedas obtener resultados! Muchos &eacute;xitos!!</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 4,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-930",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "1",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "0",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "0",
+    "visible_after_specific_date": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/930"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/930/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8845,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/930/revisions/8845"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=930"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=930"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=930"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=930"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=930"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12448,
+    "date": "2020-06-06T20:32:55",
+    "date_gmt": "2020-06-06T23:32:55",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar?post_type=sfwd-lessons&#038;p=12448"
+    },
+    "modified": "2020-06-06T20:48:54",
+    "modified_gmt": "2020-06-06T23:48:54",
+    "slug": "start-up",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/start-up/",
+    "title": {
+      "rendered": "Start-Up"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "menu_order": 5,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-12448",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12448"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12448/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 12467,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/12448/revisions/12467"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=12448"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=12448"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=12448"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=12448"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=12448"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8436,
+    "date": "2019-02-01T23:29:10",
+    "date_gmt": "2019-02-01T23:29:10",
+    "guid": {
+      "rendered": "http://intranet.remax-titanium.com.ar/lessons/leccion/"
+    },
+    "modified": "2020-06-20T11:15:12",
+    "modified_gmt": "2020-06-20T14:15:12",
+    "slug": "trabajando-con-compradores",
+    "status": "publish",
+    "type": "sfwd-lessons",
+    "link": "https://intranet.remax-titanium.com.ar/clases/trabajando-con-compradores/",
+    "title": {
+      "rendered": "Trabajando con Compradores"
+    },
+    "content": {
+      "rendered": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"8436\" class=\"elementor elementor-8436\">\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2535b194 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"2535b194\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-788c601e\" data-id=\"788c601e\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-24ed906b elementor-widget elementor-widget-text-editor\" data-id=\"24ed906b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<section class=\"fw-main-row default-section\"><div class=\"container\"><div class=\"fw-row\"><div class=\"fw-col-xs-12\"><img decoding=\"async\" src=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Difference-Between-a-Realtor-and-Real-Estate-Agent.jpg\" alt=\"//intranet.remax-titanium.com.ar/wp-content/uploads/Difference-Between-a-Realtor-and-Real-Estate-Agent.jpg\" width=\"900\"><p>&nbsp;</p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify;\">Ya hemos trabajado con los vendedores y con el inmueble. Ya tenemos la captaci&oacute;n. Ahora comienza otra parte del proceso:<strong> trabajar con compradores.</strong></p><p>En este <strong>M&oacute;dulo</strong> veremos:</p><p><strong>&ndash; Calificaci&oacute;n y Trato con Compradores</strong></p><p><strong>&ndash; Cr&eacute;ditos Hipotecarios</strong></p><p><strong>&ndash; Alquileres</strong></p><p><strong>&ndash; Mostrando el Inmueble a los Compradores</strong></p><p><strong>&ndash; T&eacute;cnicas de Cierre</strong></p></div></div></div></section><p><!-- 96840c692b6e5f550fcdab89e55f804a --></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t</div>",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "menu_order": 3,
+    "template": "",
+    "categories": [],
+    "tags": [],
+    "ld_lesson_category": [],
+    "ld_lesson_tag": [],
+    "class_list": [
+      "post-8436",
+      "sfwd-lessons",
+      "type-sfwd-lessons",
+      "status-publish",
+      "hentry"
+    ],
+    "lesson_materials": "",
+    "forced_lesson_time": "",
+    "lesson_assignment_upload": "",
+    "auto_approve_assignment": "",
+    "assignment_upload_limit_count": "",
+    "lesson_assignment_deletion_enabled": "",
+    "lesson_assignment_points_enabled": "",
+    "lesson_assignment_points_amount": "",
+    "assignment_upload_limit_extensions": "",
+    "assignment_upload_limit_size": "",
+    "visible_after": "",
+    "visible_after_specific_date": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8436"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/types/sfwd-lessons"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 6,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8436/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 12998,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/sfwd-lessons/8436/revisions/12998"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/media?parent=8436"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/categories?post=8436"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/tags?post=8436"
+        },
+        {
+          "taxonomy": "ld_lesson_category",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_category?post=8436"
+        },
+        {
+          "taxonomy": "ld_lesson_tag",
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/ld_lesson_tag?post=8436"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

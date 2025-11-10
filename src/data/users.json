@@ -1,1 +1,4774 @@
-[]
+[
+  {
+    "id": 10,
+    "name": "Adrián Patricio Delgado",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/adrian-delgado/",
+    "slug": "adrian-delgado",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/10/5ef22f6cd3a5a-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/10/5ef22f6cd3a5a-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/10/5ef22f6cd2919-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/10"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/10/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/10/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/10/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/10/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/10/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/10/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Adriana Arias",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/adriana-arias/",
+    "slug": "adriana-arias",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/e5cf8c9e636d79593531a524307a8149?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/e5cf8c9e636d79593531a524307a8149?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/e5cf8c9e636d79593531a524307a8149?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/81"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/81/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/81/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/81/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/81/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/81/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/81/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "name": "Adriana Soto",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/adriana-soto/",
+    "slug": "adriana-soto",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/00ca19b43958c8a0e161566eccc4ba74?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/00ca19b43958c8a0e161566eccc4ba74?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/00ca19b43958c8a0e161566eccc4ba74?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/93"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/93/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/93/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/93/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/93/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/93/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/93/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Alejandra Gonzalez Aramburu",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/alejandra-gonzalez-aramburu/",
+    "slug": "alejandra-gonzalez-aramburu",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/cfee863e92eacc33c54d2740e5ee2ef3?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/cfee863e92eacc33c54d2740e5ee2ef3?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/cfee863e92eacc33c54d2740e5ee2ef3?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/60"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/60/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/60/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/60/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/60/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/60/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/60/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "name": "Alejandro Maldonado",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/alejandro-maldonado/",
+    "slug": "alejandro-maldonado",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/9eccb239fd1f5b59353a67cfece77939?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/9eccb239fd1f5b59353a67cfece77939?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/9eccb239fd1f5b59353a67cfece77939?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/63"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/63/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/63/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/63/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/63/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/63/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/63/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Alexander Cones",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/alexander-cones/",
+    "slug": "alexander-cones",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/57/1660064676-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/57/1660064676-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/57/1660064676-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/57"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/57/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/57/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/57/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/57/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/57/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/57/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "name": "Andrea Porzio",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/andrea-porzio/",
+    "slug": "andrea-porzio",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/c12c52edcbed92653ad800f5bfab14f6?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/c12c52edcbed92653ad800f5bfab14f6?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/c12c52edcbed92653ad800f5bfab14f6?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/75"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/75/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/75/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/75/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/75/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/75/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/75/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "name": "Andrea Williams",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/andrea-williams/",
+    "slug": "andrea-williams",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/e3a3559fc37791fbb65a235dbbe5a552?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/e3a3559fc37791fbb65a235dbbe5a552?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/e3a3559fc37791fbb65a235dbbe5a552?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/90"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/90/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/90/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/90/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/90/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/90/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/90/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Antonella Lillo",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/antonella-lillo/",
+    "slug": "antonella-lillo",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/f86df6b650bf7a29d3f9fc4041f44d2b?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/f86df6b650bf7a29d3f9fc4041f44d2b?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/f86df6b650bf7a29d3f9fc4041f44d2b?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/96"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/96/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/96/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/96/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/96/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/96/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/96/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "name": "Belen Gomez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/belen-gomez/",
+    "slug": "belen-gomez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/8d747bf3e9146299392c47bc72e3f552?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/8d747bf3e9146299392c47bc72e3f552?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/8d747bf3e9146299392c47bc72e3f552?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/100"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/100/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/100/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/100/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/100/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/100/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/100/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Brenda Perez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/brenda-perez/",
+    "slug": "brenda-perez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/ba4a4db114721d0d1b3c84fbb81ae006?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/ba4a4db114721d0d1b3c84fbb81ae006?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/ba4a4db114721d0d1b3c84fbb81ae006?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/91"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/91/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/91/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/91/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/91/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/91/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/91/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "name": "Carolina Sibeth",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/carolina-sibeth/",
+    "slug": "carolina-sibeth",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/76/1693586051-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/76/1693586051-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/76/1693586051-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/76"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/76/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/76/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/76/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/76/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/76/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/76/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "name": "Carolina Susan",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/carolina-susan/",
+    "slug": "carolina-susan",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/64785fd6a1115d31fd19aae113761310?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/64785fd6a1115d31fd19aae113761310?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/64785fd6a1115d31fd19aae113761310?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/65"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/65/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/65/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/65/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/65/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/65/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/65/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Christian Aranda",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/christian-aranda/",
+    "slug": "christian-aranda",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/9/5ef41c1d42ccc-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/9/5ef41c1d42ccc-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/9/5ef41c1d2b2f9-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/9"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/9/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/9/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/9/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/9/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/9/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/9/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Claudio Bello",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/claudio-bello/",
+    "slug": "claudio-bello",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/0da4c4c6c3f3e71b54a825aa808fccc3?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/0da4c4c6c3f3e71b54a825aa808fccc3?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/0da4c4c6c3f3e71b54a825aa808fccc3?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/20"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/20/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/20/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/20/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/20/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/20/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/20/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "name": "Daiana Fraga",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/daiana-fraga/",
+    "slug": "daiana-fraga",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/86/1716913008-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/86/1716913008-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/86/1716913008-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/86"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/86/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/86/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/86/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/86/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/86/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/86/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "name": "Damian Salvi",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/damian-salvi/",
+    "slug": "damian-salvi",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/9ad27389c4da3f5677fc9870e41df66a?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/9ad27389c4da3f5677fc9870e41df66a?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/9ad27389c4da3f5677fc9870e41df66a?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/72"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/72/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/72/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/72/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/72/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/72/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/72/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Elizabeth Potenzoni",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/elizabeth-potenzoni/",
+    "slug": "elizabeth-potenzoni",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/78/1693527181-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/78/1693527181-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/78/1693527181-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/78"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/78/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/78/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/78/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/78/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/78/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/78/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Emiliano Besse",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/emiliano-besse/",
+    "slug": "emiliano-besse",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/95d3ca04313481418899d53339f6e147?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/95d3ca04313481418899d53339f6e147?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/95d3ca04313481418899d53339f6e147?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/103"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/103/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/103/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/103/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/103/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/103/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/103/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Federico Tamagno",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/federico-tamagno/",
+    "slug": "federico-tamagno",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/4fd1da327c2bd388edb29639e3718f04?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/4fd1da327c2bd388edb29639e3718f04?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/4fd1da327c2bd388edb29639e3718f04?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/29"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/29/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/29/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/29/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/29/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/29/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/29/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Florencia Peralta",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/florencia-peralta/",
+    "slug": "florencia-peralta",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/84/1710043146-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/84/1710043146-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/84/1710043146-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/84"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/84/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/84/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/84/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/84/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/84/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/84/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Gabriel Velazquez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/gabriel-velazquez/",
+    "slug": "gabriel-velazquez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/ed553b634eb5c446691ac3e113c3f6ac?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/ed553b634eb5c446691ac3e113c3f6ac?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/ed553b634eb5c446691ac3e113c3f6ac?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/97"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/97/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/97/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/97/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/97/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/97/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/97/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Gabriela Mastrolia",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/gabriela-mastrolia/",
+    "slug": "gabriela-mastrolia",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/11/5ef41cac2d45a-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/11/5ef41cac2d45a-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/11/5ef41cac2b3ce-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/11"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/11/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/11/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/11/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/11/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/11/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/11/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Gisela Lorenzi",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/gisela-lorenzi/",
+    "slug": "gisela-lorenzi",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/14/5ef4dbc45c9ff-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/14/5ef4dbc45c9ff-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/14/5ef4dbc45b8f5-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/14"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/14/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/14/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/14/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/14/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/14/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/14/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "name": "Hernan Valsecchi",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/hernan-valsecchi/",
+    "slug": "hernan-valsecchi",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/577113e59e717c7fe04367090555d916?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/577113e59e717c7fe04367090555d916?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/577113e59e717c7fe04367090555d916?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/56"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/56/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/56/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/56/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/56/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/56/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/56/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Ivana Polack",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/ivana-polack/",
+    "slug": "ivana-polack",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/7b85077acf8f3c6249ef3bd85a646e47?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/7b85077acf8f3c6249ef3bd85a646e47?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/7b85077acf8f3c6249ef3bd85a646e47?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/48"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/48/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/48/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/48/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/48/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/48/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/48/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Johanna Castagnola",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/johanna-castagnola/",
+    "slug": "johanna-castagnola",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/7cec335d855c8a5aba9ad37e83e24d88?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/7cec335d855c8a5aba9ad37e83e24d88?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/7cec335d855c8a5aba9ad37e83e24d88?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/104"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/104/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/104/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/104/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/104/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/104/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/104/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "name": "Julio Salomone",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/julio-salomone/",
+    "slug": "julio-salomone",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/73/1687650571-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/73/1687650571-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/73/1687650571-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/73"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/73/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/73/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/73/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/73/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/73/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/73/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Leandro D'Atri",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/datrilf/",
+    "slug": "datrilf",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/3/1728870303-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/3/1728870303-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/3/1728870303-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 3,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": {
+      "rightClick": true,
+      "colorPickerDropping": true,
+      "e-apps": true,
+      "ai-get-started-announcement": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/3"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/3/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/3/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/3/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/3/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/3/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/3/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Leonel D'Atri",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/ldatri/",
+    "slug": "ldatri",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/5944e7f6cd1377cb1b4018501c34bc83?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/5944e7f6cd1377cb1b4018501c34bc83?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/5944e7f6cd1377cb1b4018501c34bc83?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": {
+      "colorPickerDropping": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/4"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/4/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/4/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/4/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/4/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/4/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/4/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "name": "Lorena Palavecino",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/lorena-palavecino/",
+    "slug": "lorena-palavecino",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/5a794e422e88a6f2fdf801cc3e58e13e?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/5a794e422e88a6f2fdf801cc3e58e13e?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/5a794e422e88a6f2fdf801cc3e58e13e?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/55"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/55/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/55/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/55/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/55/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/55/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/55/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Lucia Iozzolino",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/lucia-iozzolino/",
+    "slug": "lucia-iozzolino",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/910f2b82c2e3a05824bef9ce97006442?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/910f2b82c2e3a05824bef9ce97006442?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/910f2b82c2e3a05824bef9ce97006442?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/87"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/87/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/87/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/87/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/87/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/87/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/87/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "name": "Macu Di Pietro",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/macudipietro/",
+    "slug": "macudipietro",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/4df74bd8ac48bad93f113c123bfd5210?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/4df74bd8ac48bad93f113c123bfd5210?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/4df74bd8ac48bad93f113c123bfd5210?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/107"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/107/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/107/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/107/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/107/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/107/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/107/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "name": "Maia Infer",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/maia-infer/",
+    "slug": "maia-infer",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/a8fe228da18fb9746be047a3c7487831?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/a8fe228da18fb9746be047a3c7487831?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/a8fe228da18fb9746be047a3c7487831?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/53"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/53/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/53/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/53/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/53/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/53/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/53/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Maria Elena Flederhasz",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/maria-elena-flederhasz/",
+    "slug": "maria-elena-flederhasz",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/99ab8f4c7d80be60eda1e6d734fcc2fb?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/99ab8f4c7d80be60eda1e6d734fcc2fb?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/99ab8f4c7d80be60eda1e6d734fcc2fb?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/83"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/83/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/83/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/83/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/83/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/83/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/83/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Mariana Salgueiro",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/mariana-salgueiro/",
+    "slug": "mariana-salgueiro",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/25bd538ab3c0e2386bd2b8254df3e410?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/25bd538ab3c0e2386bd2b8254df3e410?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/25bd538ab3c0e2386bd2b8254df3e410?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": {
+      "e-apps": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/85"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/85/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/85/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/85/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/85/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/85/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/85/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Mariano Lopizzo",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/mariano-lopizzo/",
+    "slug": "mariano-lopizzo",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/13/5ef4ca53660f5-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/13/5ef4ca53660f5-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/13/5ef4ca5364e68-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/13"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/13/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/13/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/13/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/13/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/13/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/13/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Martin Altamirano",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/martin-altamirano/",
+    "slug": "martin-altamirano",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/6b71d259e5e55197d80020b366f6cb36?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/6b71d259e5e55197d80020b366f6cb36?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/6b71d259e5e55197d80020b366f6cb36?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/102"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/102/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/102/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/102/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/102/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/102/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/102/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "name": "Martín López",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/martin-lopez/",
+    "slug": "martin-lopez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/21f99ad2004dd47f2aa745296535eef1?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/21f99ad2004dd47f2aa745296535eef1?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/21f99ad2004dd47f2aa745296535eef1?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/88"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/88/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/88/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/88/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/88/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/88/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/88/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Martina Leyenberger",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/martina-leyenberger/",
+    "slug": "martina-leyenberger",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/3ae2988cf1a2c60efb5fd7bdba461a71?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/3ae2988cf1a2c60efb5fd7bdba461a71?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/3ae2988cf1a2c60efb5fd7bdba461a71?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/7"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/7/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/7/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/7/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/7/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/7/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/7/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Maxi Canteros",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/mcanteros/",
+    "slug": "mcanteros",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/0f2eb9030e207d080e761829ba06d789?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/0f2eb9030e207d080e761829ba06d789?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/0f2eb9030e207d080e761829ba06d789?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/27"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/27/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/27/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/27/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/27/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/27/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/27/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "name": "Melina Aguilar",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/melina-aguilar/",
+    "slug": "melina-aguilar",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/ebf36baaa00764bf2b41f8d45eabc5e8?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/ebf36baaa00764bf2b41f8d45eabc5e8?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/ebf36baaa00764bf2b41f8d45eabc5e8?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/52"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/52/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/52/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/52/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/52/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/52/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/52/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Mónica Guzzo",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/monica-guzzo/",
+    "slug": "monica-guzzo",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/a2d87323b2c09745e7e217ac21c84e6a?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/a2d87323b2c09745e7e217ac21c84e6a?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/a2d87323b2c09745e7e217ac21c84e6a?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/43"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/43/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/43/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/43/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/43/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/43/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/43/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Nadia Tornero",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/nadia-tornero/",
+    "slug": "nadia-tornero",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/b8c8399ba4123eb11bc9d4eb0ae9de0d?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/b8c8399ba4123eb11bc9d4eb0ae9de0d?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/b8c8399ba4123eb11bc9d4eb0ae9de0d?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/64"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/64/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/64/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/64/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/64/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/64/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/64/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "name": "Nahuel Saavedra",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/nahuel-saavedra/",
+    "slug": "nahuel-saavedra",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/92/1719887469-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/92/1719887469-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/92/1719887469-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/92"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/92/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/92/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/92/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/92/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/92/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/92/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Nicolas Pankow",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/nicolas-pankow/",
+    "slug": "nicolas-pankow",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/ff244c1f2af3dd11bc4bbbec557fdbe2?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/ff244c1f2af3dd11bc4bbbec557fdbe2?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/ff244c1f2af3dd11bc4bbbec557fdbe2?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/44"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/44/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/44/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/44/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/44/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/44/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/44/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Pablo Carrasco Broggi",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/pablo-carrasco-broggi/",
+    "slug": "pablo-carrasco-broggi",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/fa1baadf17d148c8c329eed4dca0f4e4?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/fa1baadf17d148c8c329eed4dca0f4e4?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/fa1baadf17d148c8c329eed4dca0f4e4?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/41"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/41/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/41/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/41/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/41/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/41/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/41/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Pablo Chavez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/pablo-chavez/",
+    "slug": "pablo-chavez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/1a2bd41c538f507c629351b17a4f13e8?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/1a2bd41c538f507c629351b17a4f13e8?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/1a2bd41c538f507c629351b17a4f13e8?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/32"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/32/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/32/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/32/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/32/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/32/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/32/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "name": "Patricio Giannoni",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/patricio-giannoni/",
+    "slug": "patricio-giannoni",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/8ab4cbd1db509ebc8f71dca8da23fc70?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/8ab4cbd1db509ebc8f71dca8da23fc70?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/8ab4cbd1db509ebc8f71dca8da23fc70?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/69"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/69/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/69/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/69/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/69/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/69/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/69/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Paula Pietronave",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/paulapietronave/",
+    "slug": "paulapietronave",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/509f1f7693ad187c66ef9327fa564d0d?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/509f1f7693ad187c66ef9327fa564d0d?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/509f1f7693ad187c66ef9327fa564d0d?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/6/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/6/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/6/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/6/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/6/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/6/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Ramiro Tavaklian",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/ramiro-tavaklian/",
+    "slug": "ramiro-tavaklian",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/d442a3f54bab7eb5938010d4be5bd2ed?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/d442a3f54bab7eb5938010d4be5bd2ed?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/d442a3f54bab7eb5938010d4be5bd2ed?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/50"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/50/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/50/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/50/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/50/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/50/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/50/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "name": "Ramon Vila",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/ramon-vila/",
+    "slug": "ramon-vila",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/101/1729276783-bpthumb.png",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/101/1729276783-bpthumb.png",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/101/1729276783-bpfull.png"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/101"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/101/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/101/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/101/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/101/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/101/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/101/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "name": "Raul Rey",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/raul-rey/",
+    "slug": "raul-rey",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/b5a9b75c2c8032282c4a1aac095839ab?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/b5a9b75c2c8032282c4a1aac095839ab?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/b5a9b75c2c8032282c4a1aac095839ab?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/70"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/70/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/70/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/70/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/70/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/70/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/70/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "RE/MAX Titanium",
+    "url": "https://intranet.remax-titanium.com.ar/",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/remax-titanium/",
+    "slug": "remax-titanium",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/2/5c5c97b06568d-bpthumb.png",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/2/5c5c97b06568d-bpthumb.png",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/2/5c5c97b0622f5-bpfull.png"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": {
+      "colorPickerDropping": true,
+      "rightClick": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/2"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/2/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/2/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/2/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/2/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/2/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/2/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "REMAX REDES",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/remaxredes/",
+    "slug": "remaxredes",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/4f2b29b2bf6a31234670512db02a8f47?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/4f2b29b2bf6a31234670512db02a8f47?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/4f2b29b2bf6a31234670512db02a8f47?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/106"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/106/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/106/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/106/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/106/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/106/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/106/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Renso Colimodio",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/rensor/",
+    "slug": "rensor",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/80e3c01ccede64b281b2397dcecadf4a?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/80e3c01ccede64b281b2397dcecadf4a?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/80e3c01ccede64b281b2397dcecadf4a?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/108"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/108/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/108/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/108/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/108/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/108/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/108/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "name": "Rocio",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/rocio/",
+    "slug": "rocio",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/48287b6d81eef4863c771563c4d19dcf?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/48287b6d81eef4863c771563c4d19dcf?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/48287b6d81eef4863c771563c4d19dcf?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/66"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/66/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/66/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/66/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/66/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/66/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/66/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "name": "Rodolfo Fernandez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/rodolfo-fernandez/",
+    "slug": "rodolfo-fernandez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/e3b71b0ba9292640f0700816bef4155f?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/e3b71b0ba9292640f0700816bef4155f?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/e3b71b0ba9292640f0700816bef4155f?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/74"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/74/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/74/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/74/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/74/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/74/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/74/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "name": "Romina Otazu",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/romina-otazu/",
+    "slug": "romina-otazu",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/f509c2299980dcda7ec5f04b1a88c7da?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/f509c2299980dcda7ec5f04b1a88c7da?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/f509c2299980dcda7ec5f04b1a88c7da?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/95"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/95/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/95/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/95/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/95/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/95/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/95/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Roxana Cottone",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/roxana-cottone/",
+    "slug": "roxana-cottone",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/cf066920a0b3567a7e78fc2a08494f47?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/cf066920a0b3567a7e78fc2a08494f47?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/cf066920a0b3567a7e78fc2a08494f47?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/47"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/47/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/47/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/47/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/47/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/47/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/47/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Sandra Castro",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/sandra-castro/",
+    "slug": "sandra-castro",
+    "avatar_urls": {
+      "24": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/45/1644253709-bpthumb.jpg",
+      "48": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/45/1644253709-bpthumb.jpg",
+      "96": "https://intranet.remax-titanium.com.ar/wp-content/uploads/avatars/45/1644253709-bpfull.jpg"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/45"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/45/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/45/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/45/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/45/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/45/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/45/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Sandra Gutierrez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/sandra-gutierrez/",
+    "slug": "sandra-gutierrez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/cf6066d8458298dd406234d35ce001dc?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/cf6066d8458298dd406234d35ce001dc?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/cf6066d8458298dd406234d35ce001dc?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/105"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/105/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/105/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/105/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/105/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/105/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/105/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Sebastian Vedovi",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/sebastian-vedovi/",
+    "slug": "sebastian-vedovi",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/42fc2c99a641309e7a647ae9e3fb3d5e?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/42fc2c99a641309e7a647ae9e3fb3d5e?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/42fc2c99a641309e7a647ae9e3fb3d5e?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/98"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/98/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/98/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/98/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/98/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/98/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/98/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Valeria Brochero",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/valeria-brochero/",
+    "slug": "valeria-brochero",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/b68c8c3be8538ee60ec748d3f8fa9bc2?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/b68c8c3be8538ee60ec748d3f8fa9bc2?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/b68c8c3be8538ee60ec748d3f8fa9bc2?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/99"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/99/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/99/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/99/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/99/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/99/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/99/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "name": "Vanesa Mondrik",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/vanesa-mondrik/",
+    "slug": "vanesa-mondrik",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/094ea2218e89f8b44b32cb08bba6582a?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/094ea2218e89f8b44b32cb08bba6582a?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/094ea2218e89f8b44b32cb08bba6582a?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 0,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/68"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/68/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/68/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/68/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/68/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/68/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/68/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Veronica Perez",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/veronica-perez/",
+    "slug": "veronica-perez",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/91e36b430a21f1508420e00411959d25?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/91e36b430a21f1508420e00411959d25?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/91e36b430a21f1508420e00411959d25?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/21"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/21/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/21/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/21/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/21/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/21/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/21/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Virginia Gyurec",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/virginia-gyurec/",
+    "slug": "virginia-gyurec",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/46b0a6c7a72afc7382670b608613c8cc?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/46b0a6c7a72afc7382670b608613c8cc?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/46b0a6c7a72afc7382670b608613c8cc?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 1,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/61"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/61/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/61/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/61/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/61/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/61/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/61/quiz-progress"
+        }
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "name": "Viviana Rey",
+    "url": "",
+    "description": "",
+    "link": "https://intranet.remax-titanium.com.ar/author/viviana-rey/",
+    "slug": "viviana-rey",
+    "avatar_urls": {
+      "24": "//www.gravatar.com/avatar/e4d117ccf90edb4360d4d537261879a7?s=24&#038;r=g&#038;d=mm",
+      "48": "//www.gravatar.com/avatar/e4d117ccf90edb4360d4d537261879a7?s=48&#038;r=g&#038;d=mm",
+      "96": "//www.gravatar.com/avatar/e4d117ccf90edb4360d4d537261879a7?s=96&#038;r=g&#038;d=mm"
+    },
+    "meta": {
+      "_bbp_topic_count": 0,
+      "_bbp_reply_count": 0,
+      "_bbp_last_posted": 0,
+      "_gamipress_actividades_points": 1,
+      "_gamipress_captaciones_points": 0,
+      "_gamipress_kilometros_points": 0,
+      "_gamipress_modulos_points": 0,
+      "_gamipress_reservas_points": 0,
+      "_gamipress_prospeccion_points": 0,
+      "_gamipress_captador-serial_rank": 0
+    },
+    "elementor_introduction": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users/89"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/wp/v2/users"
+        }
+      ],
+      "courses": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/89/courses"
+        }
+      ],
+      "groups": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/89/groups"
+        }
+      ],
+      "course-progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/89/course-progress"
+        }
+      ],
+      "quiz_progress": [
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/users/89/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/89/quiz-progress"
+        },
+        {
+          "embeddable": true,
+          "href": "https://intranet.remax-titanium.com.ar/wp-json/ldlms/v2/groups/89/quiz-progress"
+        }
+      ]
+    }
+  }
+]
