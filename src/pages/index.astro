@@ -2,7 +2,7 @@
 import Layout from '@/layouts/Layout.astro';
 import { localData } from '@/lib/local-data';
 
-let courses = [];
+let courses: any[] = [];
 let error = null;
 
 try {
@@ -40,7 +40,7 @@ try {
 
     {!error && courses.length > 0 && (
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {courses.map((course) => (
+        {courses.filter(course => course.title && course.title.rendered).map((course) => (
           <a
             href={`/courses/${course.id}`}
             class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden"
@@ -50,7 +50,7 @@ try {
                 {course.title.rendered}
               </h2>
 
-              {course.excerpt.rendered && (
+              {course.excerpt && course.excerpt.rendered && (
                 <div
                   class="text-gray-600 text-sm mb-4 line-clamp-3"
                   set:html={course.excerpt.rendered}

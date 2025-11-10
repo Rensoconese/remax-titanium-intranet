@@ -1,5 +1,5 @@
-import type { WPPost, WPUser, WPMedia } from '@/types/wordpress';
-import type { LDCourse, LDLesson, LDTopic, LDQuiz, CourseStructure } from '@/types/learndash';
+import type { WPPost, WPMedia } from '@/types/wordpress';
+import type { CourseStructure } from '@/types/learndash';
 
 // Importar datos locales
 import coursesData from '@/data/courses.json';
@@ -18,13 +18,13 @@ import courseStructuresData from '@/data/course-structures.json';
  */
 class LocalDataClient {
   // Get all courses
-  async getCourses(): Promise<LDCourse[]> {
-    return coursesData as LDCourse[];
+  async getCourses(): Promise<any[]> {
+    return coursesData as any[];
   }
 
   // Get single course
-  async getCourse(id: number): Promise<LDCourse> {
-    const course = (coursesData as LDCourse[]).find(c => c.id === id);
+  async getCourse(id: number): Promise<any> {
+    const course = (coursesData as any[]).find(c => c.id === id);
     if (!course) {
       throw new Error(`Course ${id} not found`);
     }
@@ -32,8 +32,8 @@ class LocalDataClient {
   }
 
   // Get all lessons, optionally filtered by course
-  async getLessons(courseId?: number): Promise<LDLesson[]> {
-    const lessons = lessonsData as LDLesson[];
+  async getLessons(courseId?: number): Promise<any[]> {
+    const lessons = lessonsData as any[];
     if (courseId) {
       return lessons.filter(l => l.course === courseId);
     }
@@ -41,8 +41,8 @@ class LocalDataClient {
   }
 
   // Get single lesson
-  async getLesson(id: number): Promise<LDLesson> {
-    const lesson = (lessonsData as LDLesson[]).find(l => l.id === id);
+  async getLesson(id: number): Promise<any> {
+    const lesson = (lessonsData as any[]).find(l => l.id === id);
     if (!lesson) {
       throw new Error(`Lesson ${id} not found`);
     }
@@ -50,8 +50,8 @@ class LocalDataClient {
   }
 
   // Get all topics, optionally filtered by lesson
-  async getTopics(lessonId?: number): Promise<LDTopic[]> {
-    const topics = topicsData as LDTopic[];
+  async getTopics(lessonId?: number): Promise<any[]> {
+    const topics = topicsData as any[];
     if (lessonId) {
       return topics.filter(t => t.lesson === lessonId);
     }
@@ -59,8 +59,8 @@ class LocalDataClient {
   }
 
   // Get single topic
-  async getTopic(id: number): Promise<LDTopic> {
-    const topic = (topicsData as LDTopic[]).find(t => t.id === id);
+  async getTopic(id: number): Promise<any> {
+    const topic = (topicsData as any[]).find(t => t.id === id);
     if (!topic) {
       throw new Error(`Topic ${id} not found`);
     }
@@ -68,8 +68,8 @@ class LocalDataClient {
   }
 
   // Get all quizzes, optionally filtered by course
-  async getQuizzes(courseId?: number): Promise<LDQuiz[]> {
-    const quizzes = quizzesData as LDQuiz[];
+  async getQuizzes(courseId?: number): Promise<any[]> {
+    const quizzes = quizzesData as any[];
     if (courseId) {
       return quizzes.filter(q => q.course === courseId);
     }
@@ -77,8 +77,8 @@ class LocalDataClient {
   }
 
   // Get single quiz
-  async getQuiz(id: number): Promise<LDQuiz> {
-    const quiz = (quizzesData as LDQuiz[]).find(q => q.id === id);
+  async getQuiz(id: number): Promise<any> {
+    const quiz = (quizzesData as any[]).find(q => q.id === id);
     if (!quiz) {
       throw new Error(`Quiz ${id} not found`);
     }
@@ -86,8 +86,8 @@ class LocalDataClient {
   }
 
   // Get course structure with all related content
-  async getCourseStructure(courseId: number): Promise<CourseStructure> {
-    const structure = (courseStructuresData as CourseStructure[]).find(
+  async getCourseStructure(courseId: number): Promise<any> {
+    const structure = (courseStructuresData as any[]).find(
       cs => cs.course.id === courseId
     );
 
@@ -99,13 +99,13 @@ class LocalDataClient {
   }
 
   // Get all users
-  async getUsers(): Promise<WPUser[]> {
-    return usersData as WPUser[];
+  async getUsers(): Promise<any[]> {
+    return usersData as any[];
   }
 
   // Get single user
-  async getUser(id: number): Promise<WPUser> {
-    const user = (usersData as WPUser[]).find(u => u.id === id);
+  async getUser(id: number): Promise<any> {
+    const user = (usersData as any[]).find(u => u.id === id);
     if (!user) {
       throw new Error(`User ${id} not found`);
     }

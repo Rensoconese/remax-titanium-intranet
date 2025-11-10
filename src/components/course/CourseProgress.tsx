@@ -1,13 +1,10 @@
-import { useState } from 'react';
-
 interface CourseProgressProps {
-  courseId: number;
+  courseId?: number;
   totalLessons: number;
   completedLessons: number;
 }
 
 export default function CourseProgress({
-  courseId,
   totalLessons,
   completedLessons
 }: CourseProgressProps) {
