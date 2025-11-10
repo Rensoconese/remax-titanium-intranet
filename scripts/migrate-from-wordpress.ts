@@ -9,8 +9,12 @@
  * Uso: npm run migrate
  */
 
+import { config } from 'dotenv';
 import { writeFile } from 'fs/promises';
 import { join } from 'path';
+
+// Cargar variables de entorno del archivo .env
+config();
 
 const WORDPRESS_API_URL = process.env.WORDPRESS_API_URL || 'https://intranet.remax-titanium.com.ar/wp-json';
 const WORDPRESS_USERNAME = process.env.WORDPRESS_USERNAME;
