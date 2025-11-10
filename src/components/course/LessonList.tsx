@@ -7,9 +7,10 @@ interface LessonListProps {
     quizzes: any[];
   }>;
   completedLessons?: number[];
+  base?: string;
 }
 
-export default function LessonList({ lessons, completedLessons = [] }: LessonListProps) {
+export default function LessonList({ lessons, completedLessons = [], base = '/' }: LessonListProps) {
   return (
     <div className="divide-y divide-gray-200">
       {lessons.map((lessonItem, index) => {
@@ -29,7 +30,7 @@ export default function LessonList({ lessons, completedLessons = [] }: LessonLis
 
               <div className="ml-4 flex-1">
                 <a
-                  href={`/lessons/${lessonItem.lesson.id}`}
+                  href={`${base}lessons/${lessonItem.lesson.id}`}
                   className="text-lg font-semibold text-gray-900 hover:text-primary-600 transition-colors"
                 >
                   {lessonItem.lesson.title.rendered}
@@ -83,7 +84,7 @@ export default function LessonList({ lessons, completedLessons = [] }: LessonLis
                     {lessonItem.topics.map((topic) => (
                       <a
                         key={topic.id}
-                        href={`/topics/${topic.id}`}
+                        href={`${base}topics/${topic.id}`}
                         className="block text-sm text-gray-700 hover:text-primary-600 transition-colors"
                       >
                         → {topic.title.rendered}
