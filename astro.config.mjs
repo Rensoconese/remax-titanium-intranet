@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://rensoconese.github.io',
-  base: '/remax-titanium-intranet',
+  base: '/remax-titanium-intranet/',
   integrations: [
     react(),
     tailwind()
