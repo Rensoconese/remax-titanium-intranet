@@ -1,0 +1,92 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { wordpress } from '@/lib/wordpress';
+
+let courses = [];
+let error = null;
+
+try {
+  courses = await wordpress.getCourses();
+} catch (e) {
+  error = e instanceof Error ? e.message : 'Error al cargar los cursos';
+  console.error('Error fetching courses:', e);
+}
+---
+
+<Layout title="Cursos - RE/MAX Titanium Intranet">
+  <div class="space-y-6">
+    <div class="flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-gray-900">
+        Cursos Disponibles
+      </h1>
+    </div>
+
+    {error && (
+      <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
+        <p class="font-medium">Error al cargar cursos</p>
+        <p class="text-sm mt-1">{error}</p>
+        <p class="text-xs mt-2 text-red-600">
+          Verifica la configuración de WordPress API en el archivo .env
+        </p>
+      </div>
+    )}
+
+    {!error && courses.length === 0 && (
+      <div class="bg-yellow-50 border border-yellow-200 text-yellow-700 px-4 py-3 rounded-lg">
+        <p>No se encontraron cursos disponibles.</p>
+      </div>
+    )}
+
+    {!error && courses.length > 0 && (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {courses.map((course) => (
+          <a
+            href={`/courses/${course.id}`}
+            class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden"
+          >
+            <div class="p-6">
+              <h2 class="text-xl font-semibold text-gray-900 mb-2">
+                {course.title.rendered}
+              </h2>
+
+              {course.excerpt.rendered && (
+                <div
+                  class="text-gray-600 text-sm mb-4 line-clamp-3"
+                  set:html={course.excerpt.rendered}
+                />
+              )}
+
+              <div class="flex items-center justify-between mt-4">
+                <span class="text-primary-600 font-medium text-sm">
+                  Ver curso →
+                </span>
+
+                {course.course_price_type && (
+                  <span class={`
+                    px-2 py-1 text-xs font-medium rounded-full
+                    ${course.course_price_type === 'free' || course.course_price_type === 'open'
+                      ? 'bg-green-100 text-green-800'
+                      : 'bg-blue-100 text-blue-800'}
+                  `}>
+                    {course.course_price_type === 'free' || course.course_price_type === 'open'
+                      ? 'Gratuito'
+                      : 'Premium'}
+                  </span>
+                )}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

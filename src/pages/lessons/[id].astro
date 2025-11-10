@@ -1,0 +1,101 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { wordpress } from '@/lib/wordpress';
+import type { LDLesson } from '@/types/learndash';
+
+const { id } = Astro.params;
+
+if (!id) {
+  return Astro.redirect('/');
+}
+
+let lesson: LDLesson | null = null;
+let error = null;
+
+try {
+  lesson = await wordpress.getPost('sfwd-lessons', parseInt(id)) as LDLesson;
+} catch (e) {
+  error = e instanceof Error ? e.message : 'Error al cargar la lección';
+  console.error('Error fetching lesson:', e);
+}
+---
+
+<Layout title={lesson ? lesson.title.rendered : 'Lección'}>
+  {error && (
+    <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
+      <p class="font-medium">Error al cargar la lección</p>
+      <p class="text-sm mt-1">{error}</p>
+    </div>
+  )}
+
+  {lesson && (
+    <div class="space-y-6">
+      {/* Lesson Header */}
+      <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">
+          {lesson.title.rendered}
+        </h1>
+
+        {/* Video */}
+        {lesson.lesson_video_enabled && lesson.lesson_video_url && (
+          <div class="mb-6 aspect-video bg-gray-100 rounded-lg overflow-hidden">
+            <iframe
+              src={lesson.lesson_video_url}
+              class="w-full h-full"
+              allowfullscreen
+            />
+          </div>
+        )}
+
+        {/* Content */}
+        {lesson.content.rendered && (
+          <div
+            class="prose max-w-none"
+            set:html={lesson.content.rendered}
+          />
+        )}
+
+        {/* Materials */}
+        {lesson.lesson_materials && (
+          <div class="mt-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <h3 class="font-semibold text-blue-900 mb-3 text-lg">
+              📚 Materiales de la lección
+            </h3>
+            <div
+              class="prose prose-sm max-w-none text-blue-800"
+              set:html={lesson.lesson_materials}
+            />
+          </div>
+        )}
+
+        {/* Assignment Upload */}
+        {lesson.lesson_assignment_upload && (
+          <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+            <h3 class="font-semibold text-yellow-900 mb-2">
+              📝 Asignación disponible
+            </h3>
+            <p class="text-sm text-yellow-800">
+              Esta lección incluye una asignación que debes completar.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {/* Navigation */}
+      <div class="flex justify-between items-center">
+        <a
+          href={lesson.course ? `/courses/${lesson.course}` : '/'}
+          class="text-primary-600 hover:text-primary-700 font-medium"
+        >
+          ← Volver al curso
+        </a>
+
+        <button
+          class="bg-primary-600 hover:bg-primary-700 text-white font-medium px-6 py-2 rounded-lg transition-colors"
+        >
+          Marcar como completada
+        </button>
+      </div>
+    </div>
+  )}
+</Layout>

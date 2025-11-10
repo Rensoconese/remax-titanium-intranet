@@ -1,0 +1,101 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { wordpress } from '@/lib/wordpress';
+import type { LDTopic } from '@/types/learndash';
+
+const { id } = Astro.params;
+
+if (!id) {
+  return Astro.redirect('/');
+}
+
+let topic: LDTopic | null = null;
+let error = null;
+
+try {
+  topic = await wordpress.getPost('sfwd-topic', parseInt(id)) as LDTopic;
+} catch (e) {
+  error = e instanceof Error ? e.message : 'Error al cargar el tópico';
+  console.error('Error fetching topic:', e);
+}
+---
+
+<Layout title={topic ? topic.title.rendered : 'Tópico'}>
+  {error && (
+    <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
+      <p class="font-medium">Error al cargar el tópico</p>
+      <p class="text-sm mt-1">{error}</p>
+    </div>
+  )}
+
+  {topic && (
+    <div class="space-y-6">
+      {/* Topic Header */}
+      <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">
+          {topic.title.rendered}
+        </h1>
+
+        {/* Video */}
+        {topic.topic_video_enabled && topic.topic_video_url && (
+          <div class="mb-6 aspect-video bg-gray-100 rounded-lg overflow-hidden">
+            <iframe
+              src={topic.topic_video_url}
+              class="w-full h-full"
+              allowfullscreen
+            />
+          </div>
+        )}
+
+        {/* Content */}
+        {topic.content.rendered && (
+          <div
+            class="prose max-w-none"
+            set:html={topic.content.rendered}
+          />
+        )}
+
+        {/* Materials */}
+        {topic.topic_materials && (
+          <div class="mt-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <h3 class="font-semibold text-blue-900 mb-3 text-lg">
+              📚 Materiales del tópico
+            </h3>
+            <div
+              class="prose prose-sm max-w-none text-blue-800"
+              set:html={topic.topic_materials}
+            />
+          </div>
+        )}
+
+        {/* Assignment Upload */}
+        {topic.topic_assignment_upload && (
+          <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+            <h3 class="font-semibold text-yellow-900 mb-2">
+              📝 Asignación disponible
+            </h3>
+            <p class="text-sm text-yellow-800">
+              Este tópico incluye una asignación que debes completar.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {/* Navigation */}
+      <div class="flex justify-between items-center">
+        <a
+          href={topic.lesson ? `/lessons/${topic.lesson}` : topic.course ? `/courses/${topic.course}` : '/'}
+          class="text-primary-600 hover:text-primary-700 font-medium"
+        >
+          ← Volver {topic.lesson ? 'a la lección' : 'al curso'}
+        </a>
+
+        <button
+          class="bg-primary-600 hover:bg-primary-700 text-white font-medium px-6 py-2 rounded-lg transition-colors"
+        >
+          Marcar como completado
+        </button>
+      </div>
+    </div>
+  )}
+</Layout>

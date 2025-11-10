@@ -1,0 +1,166 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { wordpress } from '@/lib/wordpress';
+import type { CourseStructure } from '@/types/learndash';
+
+const { id } = Astro.params;
+
+if (!id) {
+  return Astro.redirect('/');
+}
+
+let courseStructure: CourseStructure | null = null;
+let error = null;
+
+try {
+  courseStructure = await wordpress.getCourseStructure(parseInt(id));
+} catch (e) {
+  error = e instanceof Error ? e.message : 'Error al cargar el curso';
+  console.error('Error fetching course:', e);
+}
+---
+
+<Layout title={courseStructure ? courseStructure.course.title.rendered : 'Curso'}>
+  {error && (
+    <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
+      <p class="font-medium">Error al cargar el curso</p>
+      <p class="text-sm mt-1">{error}</p>
+    </div>
+  )}
+
+  {courseStructure && (
+    <div class="space-y-8">
+      {/* Course Header */}
+      <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+        <div class="flex items-start justify-between mb-4">
+          <h1 class="text-4xl font-bold text-gray-900">
+            {courseStructure.course.title.rendered}
+          </h1>
+          {courseStructure.course.course_price_type && (
+            <span class={`
+              px-3 py-1 text-sm font-medium rounded-full
+              ${courseStructure.course.course_price_type === 'free' || courseStructure.course.course_price_type === 'open'
+                ? 'bg-green-100 text-green-800'
+                : 'bg-blue-100 text-blue-800'}
+            `}>
+              {courseStructure.course.course_price_type === 'free' || courseStructure.course.course_price_type === 'open'
+                ? 'Gratuito'
+                : 'Premium'}
+            </span>
+          )}
+        </div>
+
+        {courseStructure.course.content.rendered && (
+          <div
+            class="prose max-w-none text-gray-700"
+            set:html={courseStructure.course.content.rendered}
+          />
+        )}
+
+        {courseStructure.course.course_materials && (
+          <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+            <h3 class="font-semibold text-blue-900 mb-2">Materiales del curso</h3>
+            <div
+              class="text-sm text-blue-800"
+              set:html={courseStructure.course.course_materials}
+            />
+          </div>
+        )}
+      </div>
+
+      {/* Course Content */}
+      <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+        <div class="p-6 border-b border-gray-200">
+          <h2 class="text-2xl font-bold text-gray-900">
+            Contenido del curso
+          </h2>
+          <p class="text-gray-600 mt-1">
+            {courseStructure.lessons.length} lecciones
+          </p>
+        </div>
+
+        <div class="divide-y divide-gray-200">
+          {courseStructure.lessons.map((lessonItem, index) => (
+            <div class="p-6">
+              <div class="flex items-start">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold text-sm">
+                  {index + 1}
+                </div>
+                <div class="ml-4 flex-1">
+                  <a
+                    href={`/lessons/${lessonItem.lesson.id}`}
+                    class="text-lg font-semibold text-gray-900 hover:text-primary-600"
+                  >
+                    {lessonItem.lesson.title.rendered}
+                  </a>
+
+                  {lessonItem.lesson.excerpt.rendered && (
+                    <div
+                      class="text-sm text-gray-600 mt-1"
+                      set:html={lessonItem.lesson.excerpt.rendered}
+                    />
+                  )}
+
+                  {/* Topics */}
+                  {lessonItem.topics.length > 0 && (
+                    <div class="mt-4 ml-4 space-y-2">
+                      {lessonItem.topics.map((topic) => (
+                        <a
+                          href={`/topics/${topic.id}`}
+                          class="block text-sm text-gray-700 hover:text-primary-600"
+                        >
+                          → {topic.title.rendered}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Quizzes */}
+                  {lessonItem.quizzes.length > 0 && (
+                    <div class="mt-3 flex items-center text-sm text-purple-600">
+                      <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                        <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" />
+                      </svg>
+                      {lessonItem.quizzes.length} Quiz{lessonItem.quizzes.length > 1 ? 'zes' : ''}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Course Quizzes */}
+      {courseStructure.course_quizzes.length > 0 && (
+        <div class="bg-purple-50 rounded-lg border border-purple-200 p-6">
+          <h3 class="text-xl font-bold text-purple-900 mb-4">
+            Evaluaciones finales
+          </h3>
+          <div class="space-y-2">
+            {courseStructure.course_quizzes.map((quiz) => (
+              <div class="flex items-center text-purple-700">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                  <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" />
+                </svg>
+                {quiz.title.rendered}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Back button */}
+      <div class="flex justify-center">
+        <a
+          href="/"
+          class="text-primary-600 hover:text-primary-700 font-medium"
+        >
+          ← Volver a todos los cursos
+        </a>
+      </div>
+    </div>
+  )}
+</Layout>
