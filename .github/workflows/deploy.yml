@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, claude/astro-wordpress-migration-011CUzJHg27bebQa8PvQvG6c ]
   workflow_dispatch:
 
 permissions:
@@ -41,10 +41,6 @@ jobs:
       - name: Build with Astro
         run: npm run build
         working-directory: ${{ env.BUILD_PATH }}
-        env:
-          WORDPRESS_API_URL: ${{ secrets.WORDPRESS_API_URL }}
-          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
-          WORDPRESS_PASSWORD: ${{ secrets.WORDPRESS_PASSWORD }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
