@@ -11,7 +11,8 @@ Este proyecto es una migración completa de la intranet de cursos de RE/MAX Tita
 - ✅ Sistema de rutas dinámicas para cursos, lecciones y tópicos
 - ✅ Diseño responsivo con Tailwind CSS
 - ✅ TypeScript para type safety
-- ✅ Server-side rendering con Astro
+- ✅ Build estático optimizado (Static Site Generation)
+- ✅ Despliegue automático en GitHub Pages
 - 🔄 Sistema de autenticación (pendiente)
 - 🔄 Seguimiento de progreso de usuarios (pendiente)
 - 🔄 Gestión de certificados (pendiente)
@@ -53,7 +54,18 @@ WORDPRESS_PASSWORD=tu_contraseña
 npm run dev
 ```
 
-El sitio estará disponible en `http://localhost:4321`
+El sitio estará disponible en `http://localhost:4321/remax-titanium-intranet/`
+
+## 🌐 Deploy en GitHub Pages
+
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages.
+
+**URL del sitio en producción:**
+```
+https://rensoconese.github.io/remax-titanium-intranet/
+```
+
+Para más información sobre el despliegue, consulta [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## 📁 Estructura del Proyecto
 
@@ -108,11 +120,22 @@ El proyecto se conecta a la API REST de WordPress y utiliza los siguientes endpo
 ## 📝 Scripts Disponibles
 
 ```bash
-npm run dev       # Inicia el servidor de desarrollo
-npm run build     # Construye el proyecto para producción
-npm run preview   # Preview de la build de producción
-npm run astro     # Ejecuta comandos de Astro CLI
+npm run dev          # Inicia el servidor de desarrollo
+npm run build        # Construye el proyecto para producción (sitio estático)
+npm run preview      # Preview de la build de producción
+npm run export-data  # Exporta datos de WordPress a JSON
+npm run astro        # Ejecuta comandos de Astro CLI
 ```
+
+## 🏗️ Arquitectura del Sitio
+
+Este proyecto utiliza **Static Site Generation (SSG)**:
+
+- **Durante el build**: Se conecta a WordPress y pre-renderiza todas las páginas
+- **En producción**: Sirve HTML estático sin necesidad de servidor Node.js
+- **Ventajas**: Rápido, seguro, y fácil de desplegar en GitHub Pages
+
+Para actualizar el contenido, simplemente ejecuta el workflow de GitHub Actions manualmente o haz push al repositorio
 
 ## 🔐 Autenticación
 

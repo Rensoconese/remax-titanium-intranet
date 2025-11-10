@@ -3,6 +3,19 @@ import Layout from '@/layouts/Layout.astro';
 import { wordpress } from '@/lib/wordpress';
 import type { LDTopic } from '@/types/learndash';
 
+// Generate static paths at build time
+export async function getStaticPaths() {
+  try {
+    const topics = await wordpress.getTopics();
+    return topics.map((topic) => ({
+      params: { id: topic.id.toString() },
+    }));
+  } catch (error) {
+    console.error('Error fetching topics for static paths:', error);
+    return [];
+  }
+}
+
 const { id } = Astro.params;
 
 if (!id) {
