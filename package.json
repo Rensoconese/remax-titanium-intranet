@@ -8,6 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "migrate": "tsx scripts/migrate-from-wordpress.ts",
     "export-data": "tsx scripts/export-wordpress-data.ts"
   },
   "dependencies": {

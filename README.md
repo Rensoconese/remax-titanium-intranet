@@ -1,18 +1,23 @@
 # RE/MAX Titanium Intranet
 
-Migración de la intranet de cursos desde WordPress/LearnDash a Astro.
+**Migración completa** de la intranet de cursos desde WordPress/LearnDash a Astro.
 
 ## 📋 Descripción
 
-Este proyecto es una migración completa de la intranet de cursos de RE/MAX Titanium desde WordPress con LearnDash a un sitio web moderno construido con Astro. El proyecto incluye:
+Este proyecto realiza una **migración total y completa** de la intranet de cursos de RE/MAX Titanium desde WordPress con LearnDash a un sitio web moderno construido con Astro.
 
-- ✅ Integración con WordPress REST API para extraer contenido
-- ✅ Integración con LearnDash API para cursos, lecciones y tópicos
-- ✅ Sistema de rutas dinámicas para cursos, lecciones y tópicos
+### 🎯 Enfoque: Headless CMS con Migración Completa
+
+Este **NO** es un sitio que hace llamadas a WordPress en tiempo real. Es una **migración completa** donde:
+
+- ✅ Todo el contenido se descarga UNA VEZ de WordPress
+- ✅ El contenido se guarda localmente en archivos JSON (`src/data/`)
+- ✅ El proyecto es **completamente independiente** de WordPress
+- ✅ Todo el contenido está **versionado en Git**
+- ✅ Build estático 100% (Static Site Generation)
+- ✅ Despliegue automático en GitHub Pages
 - ✅ Diseño responsivo con Tailwind CSS
 - ✅ TypeScript para type safety
-- ✅ Build estático optimizado (Static Site Generation)
-- ✅ Despliegue automático en GitHub Pages
 - 🔄 Sistema de autenticación (pendiente)
 - 🔄 Seguimiento de progreso de usuarios (pendiente)
 - 🔄 Gestión de certificados (pendiente)
@@ -32,7 +37,7 @@ Este proyecto es una migración completa de la intranet de cursos de RE/MAX Tita
 npm install
 ```
 
-2. Configura las variables de entorno:
+2. Configura las variables de entorno (solo necesario para migración):
 
 Copia el archivo `.env.example` a `.env` y configura tus credenciales de WordPress:
 
@@ -48,13 +53,41 @@ WORDPRESS_USERNAME=tu_usuario
 WORDPRESS_PASSWORD=tu_contraseña
 ```
 
-3. Inicia el servidor de desarrollo:
+3. **Migrar el contenido de WordPress:**
+
+```bash
+npm run migrate
+```
+
+Este comando descarga TODO el contenido de WordPress y lo guarda en `src/data/`. Solo necesitas ejecutarlo una vez, o cuando quieras actualizar el contenido.
+
+4. Inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
 ```
 
 El sitio estará disponible en `http://localhost:4321/remax-titanium-intranet/`
+
+## 📦 Migración de Contenido
+
+El contenido de WordPress se descarga y almacena localmente:
+
+```bash
+npm run migrate
+```
+
+Esto descarga:
+- Todos los cursos
+- Todas las lecciones
+- Todos los tópicos
+- Todos los quizzes
+- Todos los usuarios
+- Todas las imágenes
+
+**Importante:** Después de la migración, el proyecto es **completamente independiente** de WordPress. No necesitas WordPress funcionando para desarrollar o hacer build.
+
+Para más información, consulta [MIGRATION.md](./MIGRATION.md)
 
 ## 🌐 Deploy en GitHub Pages
 
@@ -76,8 +109,10 @@ Para más información sobre el despliegue, consulta [DEPLOYMENT.md](./DEPLOYMEN
 │   ├── components/      # Componentes React/Astro reutilizables
 │   ├── layouts/         # Layouts de página
 │   │   └── Layout.astro # Layout principal
-│   ├── lib/            # Utilidades y clientes API
-│   │   └── wordpress.ts # Cliente WordPress/LearnDash API
+│   ├── data/            # Datos migrados de WordPress (JSON)
+│   ├── lib/             # Utilidades y clientes
+│   │   ├── wordpress.ts    # Cliente WordPress API (solo para migración)
+│   │   └── local-data.ts   # Cliente de datos locales
 │   ├── pages/          # Rutas del sitio
 │   │   ├── index.astro          # Lista de cursos
 │   │   ├── courses/[id].astro   # Detalle de curso
@@ -93,21 +128,32 @@ Para más información sobre el despliegue, consulta [DEPLOYMENT.md](./DEPLOYMEN
 └── tsconfig.json       # Configuración de TypeScript
 ```
 
-## 🔌 API de WordPress
+## 🔌 Arquitectura de Datos
 
-El proyecto se conecta a la API REST de WordPress y utiliza los siguientes endpoints:
+### Datos Locales
+El proyecto lee datos de archivos JSON locales en `src/data/`:
 
-### WordPress Core
+- `courses.json` - Todos los cursos
+- `lessons.json` - Todas las lecciones
+- `topics.json` - Todos los tópicos
+- `quizzes.json` - Todos los quizzes
+- `users.json` - Todos los usuarios
+- `media.json` - Metadatos de imágenes
+- `course-structures.json` - Estructura completa de cursos
+
+### Migración desde WordPress
+Durante la migración (`npm run migrate`), se usa la WordPress REST API:
+
+#### WordPress Core
 - `/wp/v2/posts` - Posts
 - `/wp/v2/users` - Usuarios
 - `/wp/v2/media` - Media
 
-### LearnDash
+#### LearnDash
 - `/wp/v2/sfwd-courses` - Cursos
 - `/wp/v2/sfwd-lessons` - Lecciones
 - `/wp/v2/sfwd-topic` - Tópicos
 - `/wp/v2/sfwd-quiz` - Quizzes
-- `/ldlms/v2/users/{id}/courses/{id}/progress` - Progreso del usuario
 
 ## 🎨 Tecnologías
 
@@ -120,22 +166,50 @@ El proyecto se conecta a la API REST de WordPress y utiliza los siguientes endpo
 ## 📝 Scripts Disponibles
 
 ```bash
+npm run migrate      # Migra TODO el contenido de WordPress a archivos locales
 npm run dev          # Inicia el servidor de desarrollo
 npm run build        # Construye el proyecto para producción (sitio estático)
 npm run preview      # Preview de la build de producción
-npm run export-data  # Exporta datos de WordPress a JSON
 npm run astro        # Ejecuta comandos de Astro CLI
 ```
 
 ## 🏗️ Arquitectura del Sitio
 
-Este proyecto utiliza **Static Site Generation (SSG)**:
+Este proyecto utiliza **Static Site Generation (SSG)** con datos locales:
 
-- **Durante el build**: Se conecta a WordPress y pre-renderiza todas las páginas
-- **En producción**: Sirve HTML estático sin necesidad de servidor Node.js
-- **Ventajas**: Rápido, seguro, y fácil de desplegar en GitHub Pages
+### Flujo de Trabajo
 
-Para actualizar el contenido, simplemente ejecuta el workflow de GitHub Actions manualmente o haz push al repositorio
+1. **Migración** (`npm run migrate`):
+   - Se conecta a WordPress UNA VEZ
+   - Descarga TODO el contenido
+   - Guarda en `src/data/` como JSON
+   - ✅ El proyecto queda independiente
+
+2. **Desarrollo** (`npm run dev`):
+   - Lee datos de archivos locales
+   - Sin llamadas a WordPress
+   - Hot reload instantáneo
+
+3. **Build** (`npm run build`):
+   - Lee datos de archivos locales
+   - Pre-renderiza todas las páginas como HTML estático
+   - Sin dependencia de WordPress
+
+4. **Producción** (GitHub Pages):
+   - Sirve HTML estático
+   - Cero latencia de API
+   - Súper rápido
+
+### Actualizar Contenido
+
+Para actualizar el contenido:
+
+```bash
+npm run migrate  # Re-migra desde WordPress
+git add src/data/
+git commit -m "Actualizar contenido"
+git push  # Deploy automático en GitHub Pages
+```
 
 ## 🔐 Autenticación
 

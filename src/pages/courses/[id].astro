@@ -1,12 +1,12 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import { wordpress } from '@/lib/wordpress';
+import { localData } from '@/lib/local-data';
 import type { CourseStructure } from '@/types/learndash';
 
 // Generate static paths at build time
 export async function getStaticPaths() {
   try {
-    const courses = await wordpress.getCourses();
+    const courses = await localData.getCourses();
     return courses.map((course) => ({
       params: { id: course.id.toString() },
     }));
@@ -26,7 +26,7 @@ let courseStructure: CourseStructure | null = null;
 let error = null;
 
 try {
-  courseStructure = await wordpress.getCourseStructure(parseInt(id));
+  courseStructure = await localData.getCourseStructure(parseInt(id));
 } catch (e) {
   error = e instanceof Error ? e.message : 'Error al cargar el curso';
   console.error('Error fetching course:', e);

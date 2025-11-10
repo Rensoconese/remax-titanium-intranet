@@ -1,12 +1,12 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import { wordpress } from '@/lib/wordpress';
+import { localData } from '@/lib/local-data';
 import type { LDLesson } from '@/types/learndash';
 
 // Generate static paths at build time
 export async function getStaticPaths() {
   try {
-    const lessons = await wordpress.getLessons();
+    const lessons = await localData.getLessons();
     return lessons.map((lesson) => ({
       params: { id: lesson.id.toString() },
     }));
@@ -26,7 +26,7 @@ let lesson: LDLesson | null = null;
 let error = null;
 
 try {
-  lesson = await wordpress.getPost('sfwd-lessons', parseInt(id)) as LDLesson;
+  lesson = await localData.getLesson(parseInt(id));
 } catch (e) {
   error = e instanceof Error ? e.message : 'Error al cargar la lección';
   console.error('Error fetching lesson:', e);

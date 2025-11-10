@@ -1,12 +1,12 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import { wordpress } from '@/lib/wordpress';
+import { localData } from '@/lib/local-data';
 import type { LDTopic } from '@/types/learndash';
 
 // Generate static paths at build time
 export async function getStaticPaths() {
   try {
-    const topics = await wordpress.getTopics();
+    const topics = await localData.getTopics();
     return topics.map((topic) => ({
       params: { id: topic.id.toString() },
     }));
@@ -26,7 +26,7 @@ let topic: LDTopic | null = null;
 let error = null;
 
 try {
-  topic = await wordpress.getPost('sfwd-topic', parseInt(id)) as LDTopic;
+  topic = await localData.getTopic(parseInt(id));
 } catch (e) {
   error = e instanceof Error ? e.message : 'Error al cargar el tópico';
   console.error('Error fetching topic:', e);
