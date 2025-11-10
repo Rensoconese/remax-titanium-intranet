@@ -3,6 +3,8 @@ import Layout from '@/layouts/Layout.astro';
 import { localData } from '@/lib/local-data';
 import type { LDLesson } from '@/types/learndash';
 
+const base = import.meta.env.BASE_URL;
+
 // Generate static paths at build time
 export async function getStaticPaths() {
   try {
@@ -19,7 +21,7 @@ export async function getStaticPaths() {
 const { id } = Astro.params;
 
 if (!id) {
-  return Astro.redirect('/');
+  return Astro.redirect(base);
 }
 
 let lesson: LDLesson | null = null;
@@ -97,7 +99,7 @@ try {
       {/* Navigation */}
       <div class="flex justify-between items-center">
         <a
-          href={lesson.course ? `/courses/${lesson.course}` : '/'}
+          href={lesson.course ? `${base}courses/${lesson.course}` : base}
           class="text-primary-600 hover:text-primary-700 font-medium"
         >
           ← Volver al curso

@@ -3,6 +3,8 @@ import Layout from '@/layouts/Layout.astro';
 import { localData } from '@/lib/local-data';
 import type { CourseStructure } from '@/types/learndash';
 
+const base = import.meta.env.BASE_URL;
+
 // Generate static paths at build time
 export async function getStaticPaths() {
   try {
@@ -19,7 +21,7 @@ export async function getStaticPaths() {
 const { id } = Astro.params;
 
 if (!id) {
-  return Astro.redirect('/');
+  return Astro.redirect(base);
 }
 
 let courseStructure: CourseStructure | null = null;
@@ -101,7 +103,7 @@ try {
                 </div>
                 <div class="ml-4 flex-1">
                   <a
-                    href={`/lessons/${lessonItem.lesson.id}`}
+                    href={`${base}lessons/${lessonItem.lesson.id}`}
                     class="text-lg font-semibold text-gray-900 hover:text-primary-600"
                   >
                     {lessonItem.lesson.title.rendered}
@@ -119,7 +121,7 @@ try {
                     <div class="mt-4 ml-4 space-y-2">
                       {lessonItem.topics.map((topic) => (
                         <a
-                          href={`/topics/${topic.id}`}
+                          href={`${base}topics/${topic.id}`}
                           class="block text-sm text-gray-700 hover:text-primary-600"
                         >
                           → {topic.title.rendered}
@@ -168,7 +170,7 @@ try {
       {/* Back button */}
       <div class="flex justify-center">
         <a
-          href="/"
+          href={base}
           class="text-primary-600 hover:text-primary-700 font-medium"
         >
           ← Volver a todos los cursos
