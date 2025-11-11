@@ -109,7 +109,7 @@ try {
                     {lessonItem.lesson.title.rendered}
                   </a>
 
-                  {lessonItem.lesson.excerpt.rendered && (
+                  {lessonItem.lesson.excerpt?.rendered && (
                     <div
                       class="text-sm text-gray-600 mt-1"
                       set:html={lessonItem.lesson.excerpt.rendered}
