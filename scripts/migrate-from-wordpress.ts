@@ -168,35 +168,123 @@ async function migrateContent() {
     );
     console.log(`✅ ${media.length} archivos multimedia descargados\n`);
 
-    // 7. Construir estructura completa de cursos
-    console.log('🏗️  Construyendo estructura completa de cursos...');
+    // 7. Construir estructura completa de cursos usando la API de LearnDash
+    console.log('🏗️  Construyendo estructura completa de cursos usando LearnDash API...');
     const courseStructures = [];
 
     for (const course of courses as any[]) {
       console.log(`  📚 Procesando: ${course.title?.rendered || course.id}`);
 
-      const courseLessons = (lessons as any[]).filter(l => l.course === course.id);
+      try {
+        // Usar la API de LearnDash para obtener los "steps" (pasos) del curso
+        // Esto incluye las lecciones en el orden correcto con sus relaciones
+        console.log(`  🔍 Obteniendo estructura desde LearnDash API...`);
+        const courseSteps = await fetchAPI(`/ldlms/v1/sfwd-courses/${course.id}/steps`);
 
-      const lessonsWithContent = await Promise.all(
-        courseLessons.map(async (lesson: any) => {
-          const lessonTopics = (topics as any[]).filter(t => t.lesson === lesson.id);
-          const lessonQuizzes = (quizzes as any[]).filter(q => q.lesson === lesson.id);
+        console.log(`  📖 Encontrados ${courseSteps.length} pasos/lecciones vía LearnDash API`);
 
-          return {
-            lesson,
-            topics: lessonTopics,
-            quizzes: lessonQuizzes,
-          };
-        })
-      );
+        // Procesar cada paso (lesson)
+        const lessonsWithContent = await Promise.all(
+          courseSteps.map(async (step: any) => {
+            // Buscar la lección completa en nuestros datos descargados
+            const lesson = (lessons as any[]).find(l => l.id === step.id);
 
-      const courseQuizzes = (quizzes as any[]).filter(q => q.course === course.id && !q.lesson);
+            if (!lesson) {
+              console.warn(`  ⚠️  Lección ${step.id} no encontrada en lessons.json`);
+              return null;
+            }
 
-      courseStructures.push({
-        course,
-        lessons: lessonsWithContent,
-        course_quizzes: courseQuizzes,
-      });
+            // Obtener los tópicos y quizzes de esta lección usando LearnDash API
+            try {
+              const lessonSteps = await fetchAPI(`/ldlms/v1/sfwd-lessons/${lesson.id}/steps`);
+
+              // Separar tópicos de quizzes
+              const lessonTopicIds = lessonSteps
+                .filter((ls: any) => ls.type === 'sfwd-topic')
+                .map((ls: any) => ls.id);
+
+              const lessonQuizIds = lessonSteps
+                .filter((ls: any) => ls.type === 'sfwd-quiz')
+                .map((ls: any) => ls.id);
+
+              // Buscar los datos completos de tópicos y quizzes
+              const lessonTopics = lessonTopicIds
+                .map((id: number) => (topics as any[]).find(t => t.id === id))
+                .filter(Boolean);
+
+              const lessonQuizzes = lessonQuizIds
+                .map((id: number) => (quizzes as any[]).find(q => q.id === id))
+                .filter(Boolean);
+
+              console.log(`    ✓ ${lesson.title?.rendered}: ${lessonTopics.length} tópicos, ${lessonQuizzes.length} quizzes`);
+
+              return {
+                lesson,
+                topics: lessonTopics,
+                quizzes: lessonQuizzes,
+              };
+            } catch (error) {
+              console.warn(`  ⚠️  Error obteniendo steps de lección ${lesson.id}: ${error}`);
+              console.log(`  ℹ️  Usando fallback (sin tópicos/quizzes)`);
+
+              return {
+                lesson,
+                topics: [],
+                quizzes: [],
+              };
+            }
+          })
+        );
+
+        // Filtrar nulls
+        const validLessons = lessonsWithContent.filter(Boolean);
+
+        // Quizzes del curso (no asociados a lecciones específicas)
+        // Estos son quizzes que aparecen directamente en el curso
+        const courseQuizzes: any[] = [];
+        try {
+          const courseQuizSteps = courseSteps.filter((s: any) => s.type === 'sfwd-quiz');
+          for (const quizStep of courseQuizSteps) {
+            const quiz = (quizzes as any[]).find(q => q.id === quizStep.id);
+            if (quiz) {
+              courseQuizzes.push(quiz);
+            }
+          }
+        } catch (error) {
+          console.warn(`  ⚠️  Error obteniendo quizzes del curso`);
+        }
+
+        courseStructures.push({
+          course,
+          lessons: validLessons,
+          course_quizzes: courseQuizzes,
+        });
+
+        console.log(`  ✅ Estructura completa: ${validLessons.length} lecciones con contenido`);
+
+      } catch (error) {
+        console.error(`  ❌ Error procesando curso ${course.id}:`, error);
+        console.log(`  ℹ️  Usando método fallback (todas las lecciones sin relaciones)`);
+
+        // Fallback: usar todas las lecciones disponibles sin relaciones
+        const allLessons = (lessons as any[]).sort((a: any, b: any) =>
+          (a.menu_order || 0) - (b.menu_order || 0)
+        );
+
+        const lessonsWithContent = allLessons.map((lesson: any) => ({
+          lesson,
+          topics: [],
+          quizzes: [],
+        }));
+
+        courseStructures.push({
+          course,
+          lessons: lessonsWithContent,
+          course_quizzes: [],
+        });
+
+        console.log(`  ⚠️  Fallback aplicado: ${lessonsWithContent.length} lecciones (sin tópicos)`);
+      }
     }
 
     await writeFile(
