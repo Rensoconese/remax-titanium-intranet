@@ -1,0 +1,156 @@
+---
+import Layout from '@/layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+// Mock user data (in a real app, this would come from authentication)
+const mockUser = {
+  name: 'Usuario Demo',
+  email: 'usuario@remax-titanium.com.ar',
+  role: 'Agente Inmobiliario',
+  joinDate: '2024-01-15',
+  coursesCompleted: 0,
+  coursesInProgress: 1,
+  totalCourses: 1
+};
+---
+
+<Layout title="Mi Perfil - RE/MAX Titanium">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-primary-600 to-blue-700 rounded-lg shadow-lg p-8 text-white">
+      <div class="flex items-center space-x-6">
+        <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center text-primary-600">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-4xl font-bold mb-1">{mockUser.name}</h1>
+          <p class="text-primary-100">{mockUser.role}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Notice -->
+    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+      <div class="flex items-start">
+        <svg class="w-5 h-5 text-blue-600 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+        </svg>
+        <div>
+          <p class="text-sm text-blue-900 font-medium">
+            Información de perfil demo
+          </p>
+          <p class="text-xs text-blue-700 mt-1">
+            Esta es una vista previa. En producción, aquí verías tu información real de usuario vinculada con WordPress.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Main Info -->
+      <div class="lg:col-span-2 space-y-6">
+        <!-- Profile Details -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-2xl font-bold text-gray-900 mb-6">Información Personal</h2>
+          <dl class="space-y-4">
+            <div class="flex items-center justify-between py-3 border-b border-gray-200">
+              <dt class="text-sm font-medium text-gray-600">Nombre completo</dt>
+              <dd class="text-sm text-gray-900 font-semibold">{mockUser.name}</dd>
+            </div>
+            <div class="flex items-center justify-between py-3 border-b border-gray-200">
+              <dt class="text-sm font-medium text-gray-600">Email</dt>
+              <dd class="text-sm text-gray-900">{mockUser.email}</dd>
+            </div>
+            <div class="flex items-center justify-between py-3 border-b border-gray-200">
+              <dt class="text-sm font-medium text-gray-600">Rol</dt>
+              <dd class="text-sm">
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">
+                  {mockUser.role}
+                </span>
+              </dd>
+            </div>
+            <div class="flex items-center justify-between py-3">
+              <dt class="text-sm font-medium text-gray-600">Miembro desde</dt>
+              <dd class="text-sm text-gray-900">
+                {new Date(mockUser.joinDate).toLocaleDateString('es-AR', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Activity -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-2xl font-bold text-gray-900 mb-6">Actividad Reciente</h2>
+          <div class="space-y-4">
+            <div class="flex items-start space-x-3 p-3 bg-gray-50 rounded-lg">
+              <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+              <div>
+                <p class="text-sm font-medium text-gray-900">Has accedido a la intranet</p>
+                <p class="text-xs text-gray-600 mt-1">Hoy</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3 p-3 bg-gray-50 rounded-lg">
+              <div class="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+              <div>
+                <p class="text-sm font-medium text-gray-900">Perfil creado</p>
+                <p class="text-xs text-gray-600 mt-1">
+                  {new Date(mockUser.joinDate).toLocaleDateString('es-AR')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="space-y-6">
+        <!-- Stats -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Estadísticas</h2>
+          <div class="space-y-4">
+            <div class="text-center p-4 bg-green-50 rounded-lg">
+              <p class="text-3xl font-bold text-green-600">{mockUser.coursesCompleted}</p>
+              <p class="text-sm text-gray-600 mt-1">Cursos Completados</p>
+            </div>
+            <div class="text-center p-4 bg-blue-50 rounded-lg">
+              <p class="text-3xl font-bold text-blue-600">{mockUser.coursesInProgress}</p>
+              <p class="text-sm text-gray-600 mt-1">En Progreso</p>
+            </div>
+            <div class="text-center p-4 bg-purple-50 rounded-lg">
+              <p class="text-3xl font-bold text-purple-600">{mockUser.totalCourses}</p>
+              <p class="text-sm text-gray-600 mt-1">Total Disponibles</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Acciones Rápidas</h2>
+          <div class="space-y-2">
+            <a
+              href={`${base}my-courses`}
+              class="block w-full px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors text-center font-medium"
+            >
+              Mis Cursos
+            </a>
+            <a
+              href={base}
+              class="block w-full px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors text-center font-medium"
+            >
+              Explorar Cursos
+            </a>
+            <a
+              href={`${base}admin`}
+              class="block w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-center font-medium"
+            >
+              Panel Admin
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

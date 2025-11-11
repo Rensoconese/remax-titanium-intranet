@@ -1,0 +1,171 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { localData } from '@/lib/local-data';
+
+const base = import.meta.env.BASE_URL;
+
+export async function getStaticPaths() {
+  const topics = await localData.getTopics();
+  return topics.map((topic) => ({
+    params: { id: topic.id.toString() },
+  }));
+}
+
+const { id } = Astro.params;
+const topic = await localData.getTopic(parseInt(id!));
+
+// Get related info
+let lessonName = 'N/A';
+let courseName = 'N/A';
+
+if (topic.lesson) {
+  try {
+    const lesson = await localData.getLesson(topic.lesson);
+    lessonName = lesson.title.rendered;
+  } catch (e) {
+    lessonName = `ID: ${topic.lesson}`;
+  }
+}
+
+if (topic.course) {
+  try {
+    const course = await localData.getCourse(topic.course);
+    courseName = course.title.rendered;
+  } catch (e) {
+    courseName = `ID: ${topic.course}`;
+  }
+}
+---
+
+<Layout title={`${topic.title.rendered} - Admin`}>
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">{topic.title.rendered}</h1>
+        <p class="text-gray-600 mt-1">ID: {topic.id}</p>
+      </div>
+      <a
+        href={`${base}admin/topics`}
+        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+      >
+        ← Volver a tópicos
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Main Info -->
+      <div class="lg:col-span-2 space-y-6">
+        <!-- Basic Info -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Información Básica</h2>
+          <dl class="space-y-3">
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Lección</dt>
+              <dd class="text-sm text-gray-900 mt-1">
+                {topic.lesson ? (
+                  <a href={`${base}admin/lessons/${topic.lesson}`} class="text-blue-600 hover:underline">
+                    {lessonName}
+                  </a>
+                ) : 'N/A'}
+              </dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Curso</dt>
+              <dd class="text-sm text-gray-900 mt-1">
+                {topic.course ? (
+                  <a href={`${base}admin/courses/${topic.course}`} class="text-blue-600 hover:underline">
+                    {courseName}
+                  </a>
+                ) : 'N/A'}
+              </dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Slug</dt>
+              <dd class="text-sm text-gray-900 mt-1">{topic.slug}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Estado</dt>
+              <dd class="text-sm text-gray-900 mt-1">
+                <span class={`px-2 py-1 text-xs font-medium rounded-full ${
+                  topic.status === 'publish' ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-800'
+                }`}>
+                  {topic.status === 'publish' ? 'Publicado' : topic.status}
+                </span>
+              </dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Video habilitado</dt>
+              <dd class="text-sm text-gray-900 mt-1">{topic.topic_video_enabled ? 'Sí' : 'No'}</dd>
+            </div>
+            {topic.topic_video_enabled && topic.topic_video_url && (
+              <div>
+                <dt class="text-sm font-medium text-gray-600">URL del video</dt>
+                <dd class="text-sm text-blue-600 mt-1">
+                  <a href={topic.topic_video_url} target="_blank" class="hover:underline break-all">
+                    {topic.topic_video_url}
+                  </a>
+                </dd>
+              </div>
+            )}
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Asignación</dt>
+              <dd class="text-sm text-gray-900 mt-1">{topic.topic_assignment_upload ? 'Sí' : 'No'}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Fecha de creación</dt>
+              <dd class="text-sm text-gray-900 mt-1">{new Date(topic.date).toLocaleString('es-AR')}</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Content -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Contenido</h2>
+          <div class="prose max-w-none" set:html={topic.content.rendered} />
+        </div>
+
+        <!-- Materials -->
+        {topic.topic_materials && (
+          <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <h2 class="text-xl font-bold text-gray-900 mb-4">Materiales</h2>
+            <div class="prose max-w-none" set:html={topic.topic_materials} />
+          </div>
+        )}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="space-y-6">
+        <!-- Actions -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Acciones</h2>
+          <div class="space-y-2">
+            <a
+              href={`${base}topics/${topic.id}`}
+              target="_blank"
+              class="block w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-medium"
+            >
+              Ver en el sitio
+            </a>
+            {topic.lesson && (
+              <a
+                href={`${base}admin/lessons/${topic.lesson}`}
+                class="block w-full px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-center font-medium"
+              >
+                Ver lección
+              </a>
+            )}
+            {topic.course && (
+              <a
+                href={`${base}admin/courses/${topic.course}`}
+                class="block w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-center font-medium"
+              >
+                Ver curso
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

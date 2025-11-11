@@ -1,0 +1,187 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { localData } from '@/lib/local-data';
+
+const base = import.meta.env.BASE_URL;
+
+export async function getStaticPaths() {
+  const courses = await localData.getCourses();
+  return courses.map((course) => ({
+    params: { id: course.id.toString() },
+  }));
+}
+
+const { id } = Astro.params;
+const course = await localData.getCourse(parseInt(id!));
+const structure = await localData.getCourseStructure(parseInt(id!));
+---
+
+<Layout title={`${course.title.rendered} - Admin`}>
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">{course.title.rendered}</h1>
+        <p class="text-gray-600 mt-1">ID: {course.id}</p>
+      </div>
+      <a
+        href={`${base}admin/courses`}
+        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+      >
+        ← Volver a cursos
+      </a>
+    </div>
+
+    <!-- Course Details -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Main Info -->
+      <div class="lg:col-span-2 space-y-6">
+        <!-- Basic Info -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Información Básica</h2>
+          <dl class="space-y-3">
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Slug</dt>
+              <dd class="text-sm text-gray-900 mt-1">{course.slug}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Estado</dt>
+              <dd class="text-sm text-gray-900 mt-1">
+                <span class={`px-2 py-1 text-xs font-medium rounded-full ${
+                  course.status === 'publish' ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-800'
+                }`}>
+                  {course.status === 'publish' ? 'Publicado' : course.status}
+                </span>
+              </dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Tipo de precio</dt>
+              <dd class="text-sm text-gray-900 mt-1">{course.course_price_type || 'N/A'}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Fecha de creación</dt>
+              <dd class="text-sm text-gray-900 mt-1">{new Date(course.date).toLocaleString('es-AR')}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Última modificación</dt>
+              <dd class="text-sm text-gray-900 mt-1">{new Date(course.modified).toLocaleString('es-AR')}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">Autor</dt>
+              <dd class="text-sm text-gray-900 mt-1">Usuario ID: {course.author}</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-medium text-gray-600">URL Original</dt>
+              <dd class="text-sm text-blue-600 mt-1">
+                <a href={course.link} target="_blank" class="hover:underline">{course.link}</a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Content -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Contenido</h2>
+          <div class="prose max-w-none" set:html={course.content.rendered} />
+        </div>
+
+        <!-- Materials -->
+        {course.course_materials && (
+          <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <h2 class="text-xl font-bold text-gray-900 mb-4">Materiales</h2>
+            <div class="prose max-w-none" set:html={course.course_materials} />
+          </div>
+        )}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="space-y-6">
+        <!-- Structure -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Estructura</h2>
+          <div class="space-y-4">
+            <div class="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
+              <span class="text-sm font-medium text-blue-900">Lecciones</span>
+              <span class="text-2xl font-bold text-blue-600">{structure.lessons.length}</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
+              <span class="text-sm font-medium text-purple-900">Tópicos</span>
+              <span class="text-2xl font-bold text-purple-600">
+                {structure.lessons.reduce((acc: number, l: any) => acc + l.topics.length, 0)}
+              </span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-orange-50 rounded-lg">
+              <span class="text-sm font-medium text-orange-900">Quizzes</span>
+              <span class="text-2xl font-bold text-orange-600">
+                {structure.lessons.reduce((acc: number, l: any) => acc + l.quizzes.length, 0) + structure.course_quizzes.length}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Acciones</h2>
+          <div class="space-y-2">
+            <a
+              href={`${base}courses/${course.id}`}
+              target="_blank"
+              class="block w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-medium"
+            >
+              Ver en el sitio
+            </a>
+            <button
+              onclick={`navigator.clipboard.writeText(${JSON.stringify(course, null, 2)}); alert('JSON copiado al portapapeles')`}
+              class="block w-full px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors text-center font-medium"
+            >
+              Copiar JSON
+            </button>
+          </div>
+        </div>
+
+        <!-- Metadata -->
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Metadata</h2>
+          <details class="text-sm">
+            <summary class="cursor-pointer font-medium text-gray-700 hover:text-gray-900">Ver meta</summary>
+            <pre class="mt-2 p-2 bg-gray-50 rounded text-xs overflow-auto">{JSON.stringify(course.meta, null, 2)}</pre>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lessons List -->
+    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Lecciones del Curso</h2>
+      <div class="space-y-4">
+        {structure.lessons.map((lessonItem: any, index: number) => (
+          <div class="border border-gray-200 rounded-lg p-4">
+            <div class="flex items-start justify-between">
+              <div class="flex-1">
+                <div class="flex items-center space-x-3">
+                  <span class="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-semibold text-sm">
+                    {index + 1}
+                  </span>
+                  <h3 class="text-lg font-semibold text-gray-900">{lessonItem.lesson.title.rendered}</h3>
+                </div>
+                <div class="mt-2 ml-11 space-y-2">
+                  <div class="flex items-center space-x-4 text-sm text-gray-600">
+                    <span>{lessonItem.topics.length} tópicos</span>
+                    <span>•</span>
+                    <span>{lessonItem.quizzes.length} quizzes</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href={`${base}admin/lessons/${lessonItem.lesson.id}`}
+                class="text-blue-600 hover:text-blue-800 text-sm font-medium"
+              >
+                Ver detalles →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,100 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { localData } from '@/lib/local-data';
+
+const base = import.meta.env.BASE_URL;
+const topics = await localData.getTopics();
+---
+
+<Layout title="Tópicos - Admin - RE/MAX Titanium">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">Tópicos</h1>
+        <p class="text-gray-600 mt-1">Gestiona todos los tópicos</p>
+      </div>
+      <a
+        href={`${base}admin`}
+        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+      >
+        ← Volver al panel
+      </a>
+    </div>
+
+    <!-- Stats -->
+    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+      <p class="text-purple-900 font-semibold">Total: {topics.length} tópico(s)</p>
+    </div>
+
+    <!-- Topics List -->
+    <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Título</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Lección</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Curso</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Video</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Fecha</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Acciones</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            {topics.map((topic) => (
+              <tr class="hover:bg-gray-50">
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                  {topic.id}
+                </td>
+                <td class="px-6 py-4 text-sm text-gray-900">
+                  <div class="max-w-xs truncate">{topic.title.rendered}</div>
+                </td>
+                <td class="px-6 py-4 text-sm text-gray-600">
+                  {topic.lesson ? (
+                    <a href={`${base}admin/lessons/${topic.lesson}`} class="text-blue-600 hover:underline">
+                      ID: {topic.lesson}
+                    </a>
+                  ) : 'N/A'}
+                </td>
+                <td class="px-6 py-4 text-sm text-gray-600">
+                  {topic.course ? (
+                    <a href={`${base}admin/courses/${topic.course}`} class="text-blue-600 hover:underline">
+                      ID: {topic.course}
+                    </a>
+                  ) : 'N/A'}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                  {topic.topic_video_enabled ? (
+                    <span class="text-green-600">✓ Sí</span>
+                  ) : (
+                    <span class="text-gray-400">No</span>
+                  )}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                  {new Date(topic.date).toLocaleDateString('es-AR')}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium space-x-2">
+                  <a
+                    href={`${base}topics/${topic.id}`}
+                    class="text-blue-600 hover:text-blue-800"
+                    target="_blank"
+                  >
+                    Ver
+                  </a>
+                  <a
+                    href={`${base}admin/topics/${topic.id}`}
+                    class="text-indigo-600 hover:text-indigo-800"
+                  >
+                    Detalles
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Layout>

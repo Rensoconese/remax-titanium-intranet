@@ -1,0 +1,161 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import coursesData from '@/data/courses.json';
+import lessonsData from '@/data/lessons.json';
+import topicsData from '@/data/topics.json';
+import quizzesData from '@/data/quizzes.json';
+import usersData from '@/data/users.json';
+import mediaData from '@/data/media.json';
+import courseStructuresData from '@/data/course-structures.json';
+import metadataData from '@/data/migration-metadata.json';
+
+const base = import.meta.env.BASE_URL;
+
+const dataFiles = [
+  {
+    name: 'courses.json',
+    size: JSON.stringify(coursesData).length,
+    records: Array.isArray(coursesData) ? coursesData.length : 1,
+    data: coursesData
+  },
+  {
+    name: 'lessons.json',
+    size: JSON.stringify(lessonsData).length,
+    records: Array.isArray(lessonsData) ? lessonsData.length : 1,
+    data: lessonsData
+  },
+  {
+    name: 'topics.json',
+    size: JSON.stringify(topicsData).length,
+    records: Array.isArray(topicsData) ? topicsData.length : 1,
+    data: topicsData
+  },
+  {
+    name: 'quizzes.json',
+    size: JSON.stringify(quizzesData).length,
+    records: Array.isArray(quizzesData) ? quizzesData.length : 1,
+    data: quizzesData
+  },
+  {
+    name: 'users.json',
+    size: JSON.stringify(usersData).length,
+    records: Array.isArray(usersData) ? usersData.length : 1,
+    data: usersData
+  },
+  {
+    name: 'media.json',
+    size: JSON.stringify(mediaData).length,
+    records: Array.isArray(mediaData) ? mediaData.length : 1,
+    data: mediaData
+  },
+  {
+    name: 'course-structures.json',
+    size: JSON.stringify(courseStructuresData).length,
+    records: Array.isArray(courseStructuresData) ? courseStructuresData.length : 1,
+    data: courseStructuresData
+  },
+  {
+    name: 'migration-metadata.json',
+    size: JSON.stringify(metadataData).length,
+    records: 1,
+    data: metadataData
+  }
+];
+
+function formatBytes(bytes: number): string {
+  if (bytes === 0) return '0 Bytes';
+  const k = 1024;
+  const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return Math.round((bytes / Math.pow(k, i)) * 100) / 100 + ' ' + sizes[i];
+}
+---
+
+<Layout title="Datos JSON - Admin - RE/MAX Titanium">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">Datos JSON</h1>
+        <p class="text-gray-600 mt-1">Visualiza los archivos JSON migrados</p>
+      </div>
+      <a
+        href={`${base}admin`}
+        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+      >
+        ← Volver al panel
+      </a>
+    </div>
+
+    <!-- Data Files -->
+    <div class="space-y-4">
+      {dataFiles.map((file) => (
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+          <details class="group">
+            <summary class="cursor-pointer p-6 hover:bg-gray-50 transition-colors">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  <div>
+                    <h3 class="text-lg font-semibold text-gray-900">{file.name}</h3>
+                    <p class="text-sm text-gray-600 mt-1">
+                      {file.records} registro(s) • {formatBytes(file.size)}
+                    </p>
+                  </div>
+                </div>
+                <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </div>
+            </summary>
+            <div class="px-6 pb-6">
+              <div class="flex items-center justify-between mb-4">
+                <p class="text-sm text-gray-600">Vista previa del JSON</p>
+                <button
+                  onclick={`navigator.clipboard.writeText(JSON.stringify(${JSON.stringify(file.data)}, null, 2)); alert('JSON copiado al portapapeles!')`}
+                  class="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded hover:bg-blue-200 transition-colors"
+                >
+                  Copiar JSON
+                </button>
+              </div>
+              <div class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-auto max-h-96">
+                <pre class="text-xs"><code>{JSON.stringify(file.data, null, 2)}</code></pre>
+              </div>
+            </div>
+          </details>
+        </div>
+      ))}
+    </div>
+
+    <!-- Summary -->
+    <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+      <h2 class="text-xl font-bold text-blue-900 mb-4">Resumen Total</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div>
+          <p class="text-sm text-blue-700">Total archivos</p>
+          <p class="text-2xl font-bold text-blue-900">{dataFiles.length}</p>
+        </div>
+        <div>
+          <p class="text-sm text-blue-700">Total registros</p>
+          <p class="text-2xl font-bold text-blue-900">
+            {dataFiles.reduce((acc, f) => acc + f.records, 0)}
+          </p>
+        </div>
+        <div>
+          <p class="text-sm text-blue-700">Tamaño total</p>
+          <p class="text-2xl font-bold text-blue-900">
+            {formatBytes(dataFiles.reduce((acc, f) => acc + f.size, 0))}
+          </p>
+        </div>
+        <div>
+          <p class="text-sm text-blue-700">Fecha de migración</p>
+          <p class="text-sm font-semibold text-blue-900 mt-1">
+            {new Date(metadataData.migrated_at).toLocaleDateString('es-AR')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
