@@ -179,88 +179,62 @@ async function migrateContent() {
         // Usar la API de LearnDash para obtener los "steps" (pasos) del curso
         // Esto incluye las lecciones en el orden correcto con sus relaciones
         console.log(`  🔍 Obteniendo estructura desde LearnDash API...`);
-        const courseSteps = await fetchAPI(`/ldlms/v1/sfwd-courses/${course.id}/steps`);
+        const courseStepsResponse: any = await fetchAPI(`/ldlms/v1/sfwd-courses/${course.id}/steps`);
 
-        console.log(`  📖 Encontrados ${courseSteps.length} pasos/lecciones vía LearnDash API`);
+        // La API de LearnDash devuelve un objeto con estructura compleja
+        // Las lecciones están en: response.t['sfwd-lessons']
+        // Las relaciones están en: response.legacy.topics
+        const lessonIds = courseStepsResponse.t?.['sfwd-lessons'] || [];
+        const topicsByLesson = courseStepsResponse.legacy?.topics || {};
+        const quizzesByLesson = courseStepsResponse.legacy?.quizzes || {};
 
-        // Procesar cada paso (lesson)
-        const lessonsWithContent = await Promise.all(
-          courseSteps.map(async (step: any) => {
-            // Buscar la lección completa en nuestros datos descargados
-            const lesson = (lessons as any[]).find(l => l.id === step.id);
+        console.log(`  📖 Encontradas ${lessonIds.length} lecciones vía LearnDash API`);
 
-            if (!lesson) {
-              console.warn(`  ⚠️  Lección ${step.id} no encontrada en lessons.json`);
-              return null;
-            }
+        // Procesar cada lección
+        const lessonsWithContent = lessonIds.map((lessonId: number) => {
+          // Buscar la lección completa en nuestros datos descargados
+          const lesson = (lessons as any[]).find(l => l.id === lessonId);
 
-            // Obtener los tópicos y quizzes de esta lección usando LearnDash API
-            try {
-              const lessonSteps = await fetchAPI(`/ldlms/v1/sfwd-lessons/${lesson.id}/steps`);
+          if (!lesson) {
+            console.warn(`  ⚠️  Lección ${lessonId} no encontrada en lessons.json`);
+            return null;
+          }
 
-              // Separar tópicos de quizzes
-              const lessonTopicIds = lessonSteps
-                .filter((ls: any) => ls.type === 'sfwd-topic')
-                .map((ls: any) => ls.id);
+          // Obtener los IDs de tópicos y quizzes de esta lección desde legacy
+          const topicIds = topicsByLesson[lessonId] ? Object.keys(topicsByLesson[lessonId]).map(Number) : [];
+          const quizIds = quizzesByLesson?.[lessonId] ? Object.keys(quizzesByLesson[lessonId]).map(Number) : [];
 
-              const lessonQuizIds = lessonSteps
-                .filter((ls: any) => ls.type === 'sfwd-quiz')
-                .map((ls: any) => ls.id);
+          // Buscar los datos completos de tópicos y quizzes
+          const lessonTopics = topicIds
+            .map((id: number) => (topics as any[]).find(t => t.id === id))
+            .filter(Boolean);
 
-              // Buscar los datos completos de tópicos y quizzes
-              const lessonTopics = lessonTopicIds
-                .map((id: number) => (topics as any[]).find(t => t.id === id))
-                .filter(Boolean);
+          const lessonQuizzes = quizIds
+            .map((id: number) => (quizzes as any[]).find(q => q.id === id))
+            .filter(Boolean);
 
-              const lessonQuizzes = lessonQuizIds
-                .map((id: number) => (quizzes as any[]).find(q => q.id === id))
-                .filter(Boolean);
+          console.log(`    ✓ ${lesson.title?.rendered}: ${lessonTopics.length} tópicos, ${lessonQuizzes.length} quizzes`);
 
-              console.log(`    ✓ ${lesson.title?.rendered}: ${lessonTopics.length} tópicos, ${lessonQuizzes.length} quizzes`);
-
-              return {
-                lesson,
-                topics: lessonTopics,
-                quizzes: lessonQuizzes,
-              };
-            } catch (error) {
-              console.warn(`  ⚠️  Error obteniendo steps de lección ${lesson.id}: ${error}`);
-              console.log(`  ℹ️  Usando fallback (sin tópicos/quizzes)`);
-
-              return {
-                lesson,
-                topics: [],
-                quizzes: [],
-              };
-            }
-          })
-        );
-
-        // Filtrar nulls
-        const validLessons = lessonsWithContent.filter(Boolean);
+          return {
+            lesson,
+            topics: lessonTopics,
+            quizzes: lessonQuizzes,
+          };
+        }).filter(Boolean);
 
         // Quizzes del curso (no asociados a lecciones específicas)
-        // Estos son quizzes que aparecen directamente en el curso
-        const courseQuizzes: any[] = [];
-        try {
-          const courseQuizSteps = courseSteps.filter((s: any) => s.type === 'sfwd-quiz');
-          for (const quizStep of courseQuizSteps) {
-            const quiz = (quizzes as any[]).find(q => q.id === quizStep.id);
-            if (quiz) {
-              courseQuizzes.push(quiz);
-            }
-          }
-        } catch (error) {
-          console.warn(`  ⚠️  Error obteniendo quizzes del curso`);
-        }
+        const courseQuizIds = courseStepsResponse.t?.['sfwd-quiz'] || [];
+        const courseQuizzes = courseQuizIds
+          .map((id: number) => (quizzes as any[]).find(q => q.id === id))
+          .filter(Boolean);
 
         courseStructures.push({
           course,
-          lessons: validLessons,
+          lessons: lessonsWithContent,
           course_quizzes: courseQuizzes,
         });
 
-        console.log(`  ✅ Estructura completa: ${validLessons.length} lecciones con contenido`);
+        console.log(`  ✅ Estructura completa: ${lessonsWithContent.length} lecciones con contenido`);
 
       } catch (error) {
         console.error(`  ❌ Error procesando curso ${course.id}:`, error);
