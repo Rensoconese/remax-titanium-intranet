@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master, claude/astro-wordpress-migration-011CUzJHg27bebQa8PvQvG6c ]
+    branches: [ main, master, claude/fix-migration-upload-deploy-011CV48Ed8zx3Gq5AQcb297F ]
   workflow_dispatch:
 
 permissions:
